@@ -1,0 +1,54 @@
+﻿@model Fut360.Models.LocalModel
+
+@{
+    ViewData["Title"] = "Editar Local";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Editar Local</h1>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+
+        <form asp-controller="Local" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Endereco" class="control-label"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Endereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Horario" class="control-label"></label>
+                <input asp-for="Horario" class="form-control" />
+                <span asp-validation-for="Horario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pagamento" class="control-label"></label>
+                <input asp-for="Pagamento" class="form-control" />
+                <span asp-validation-for="Pagamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" role="button" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Local" asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

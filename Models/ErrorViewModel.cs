@@ -1,4 +1,4 @@
-namespace Futs.Models
+namespace Fut360.Models
 {
     public class ErrorViewModel
     {

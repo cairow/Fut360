@@ -1,14 +1,22 @@
-﻿using Futs.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections;
 using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Fut360.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Runtime.CompilerServices;
 
-namespace Futs.Controllers
+namespace Fut360.Controllers
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            return View();
+            HomeModel home = new HomeModel();
+
+            return View(home);
+            
         }
 
         public IActionResult Privacy()

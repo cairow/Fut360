@@ -9,37 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Futs
 build_property.RootNamespace = Futs
-build_property.ProjectDir = C:\Users\User\OneDrive\IFMS -TSI\Fut\Futs\
+build_property.ProjectDir = C:\Users\cairogomes\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\OneDrive\IFMS -TSI\Fut\Futs
+build_property.MSBuildProjectDirectory = C:\Users\cairogomes\OneDrive\IFMS -TSI\Fut\Fut360\Fut360
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/Home/Index.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/Home/Privacy.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/Shared/Error.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Jogador/ApagarConfirmacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvclxBcGFnYXJDb25maXJtYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Jogador/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvclxDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Jogador/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvclxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Jogador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/_ViewImports.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/_ViewStart.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/IFMS -TSI/Fut/Futs/Views/Shared/_Layout.cshtml]
+[C:/Users/cairogomes/OneDrive/IFMS -TSI/Fut/Fut360/Fut360/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tbj34vhs80
