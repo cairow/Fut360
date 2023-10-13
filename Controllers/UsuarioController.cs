@@ -51,8 +51,6 @@ namespace Fut360.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Login,Email,Contato, Senha")] UsuarioModel usuarioModel)
         {
-            try
-            {
                 if (ModelState.IsValid)
                 {
                     _context.Add(usuarioModel);
@@ -62,12 +60,6 @@ namespace Fut360.Controllers
                     return RedirectToAction(nameof(Index));
                 }
                 return View(usuarioModel);
-            }
-            catch (Exception erro)
-            {
-                TempData["MensagemErro"] = $"Ops, não foi possível cadastrar o usuário, tente novamente! {erro.Message}";
-                return RedirectToAction("Index");
-            }
             
         }
 
