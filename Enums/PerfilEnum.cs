@@ -4,7 +4,7 @@
     {
         Admin = 1,
         Padrao = 2,
-        Mediador = 3
+        Mediador = 4
 
     }
 }
