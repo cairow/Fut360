@@ -1,0 +1,75 @@
+﻿@using Fut360.Enums;
+@model Fut360.Models.UsuarioModel
+
+@{
+    ViewData["Title"] = "Editar Usuário";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Editar Local</h1>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+
+        <form asp-controller="Usuario" asp-action="Edit">
+           
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+            
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Login" class="control-label"></label>
+                <input asp-for="Login" class="form-control" />
+                <span asp-validation-for="Login" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contato" class="control-label"></label>
+                <input asp-for="Contato" class="form-control" />
+                <span asp-validation-for="Contato" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contato">Perfil</label>
+                <select asp-for="Perfil" class="form-control">
+                    <option value="0">Selecione</option>
+                    <option value="@PerfilEnum.Admin">Administrador</option>
+                    <option value="@PerfilEnum.Padrao">Padrão</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+
+
+            </br>
+            <div class="form-group">
+                <input type="submit" role="button" value="Salvar" class="btn btn-primary" />
+                <a role="button" class="btn btn-primary" asp-controller="Usuario" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

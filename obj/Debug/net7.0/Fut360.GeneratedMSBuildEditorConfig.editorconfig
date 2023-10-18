@@ -9,69 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fut360
 build_property.RootNamespace = Fut360
-build_property.ProjectDir = C:\Users\Rodrigo\Desktop\repos\
+build_property.ProjectDir = C:\Users\cairogomes\Source\Repos\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Rodrigo\Desktop\repos
+build_property.MSBuildProjectDirectory = C:\Users\cairogomes\Source\Repos
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Home/Index.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Home/Privacy.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Local/Create.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Local/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Local/Delete.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Local/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Local/Details.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Local/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Local/Edit.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Local/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Local/Index.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Local/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Shared/Error.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/Source/Repos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Usuario/Create.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Usuario/Details.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/Source/Repos/Views/Usuario/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Usuario/Index.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cairogomes/Source/Repos/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/_ViewImports.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/_ViewStart.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/Desktop/repos/Views/Shared/_Layout.cshtml]
+[C:/Users/cairogomes/Source/Repos/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uvbo2526dt
+
+[C:/Users/cairogomes/Source/Repos/Views/Shared/_LayoutDeslogado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZXNsb2dhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j5cqz1c50k

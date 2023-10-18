@@ -1,0 +1,32 @@
+﻿@model Fut360.Models.UsuarioModel
+
+@{
+    ViewData["Title"] = "Excluir";
+}
+
+<h1>Excluir</h1>
+
+<h3>Tem certeza que deseja excluir o USUÁRIO abaixo?</h3>
+<div>
+    <hr />
+    <dl class="">
+        <dd class="">
+            <label for="nome">Nome: </label>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dd class="">
+            <label for="nome">Login: </label>
+            @Html.DisplayFor(model => model.Login)
+        </dd>
+        <dd class="">
+            <label for="nome">Data de criação: </label>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+          <input type="submit" role="button" value="OK" class="btn btn-danger" /> 
+          <a class="btn btn-secondary" asp-action="Index">Voltar</a>
+    </form>
+</div>
