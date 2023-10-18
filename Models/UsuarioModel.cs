@@ -18,9 +18,15 @@ namespace Fut360.Models
         [Phone(ErrorMessage = "O número informado não é um telefone válido!")]
         public string Contato { get; set; }
         public PerfilEnum Perfil { get; set; }
+        [Required(ErrorMessage = "Digite a senha do usuário")]
         public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime? DataAlteracao { get; set; }
+
+        public bool SenhaValida(string senha)
+        {
+            return Senha == senha;
+        }
 
     }
 }

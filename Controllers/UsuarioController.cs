@@ -15,12 +15,33 @@ namespace Fut360.Controllers
             _context = context;
         }
 
+        // GET: Usuario/BuscarPorLogin
+        public IActionResult BuscarPorLogin(string login)
+        {
+            if (login == null || _context.Usuario == null)
+            {
+                return NotFound();
+            }
+
+
+            var usuarioModel = _context.Usuario.FirstOrDefaultAsync(m => m.Login.ToUpper() == login.ToUpper());
+
+            if (usuarioModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(usuarioModel);
+
+        }
+
+
         // GET: Usuario
         public async Task<IActionResult> Index()
         {
-            return _context.Local != null ?
+            return _context.Usuario != null ?
                         View(await _context.Usuario.ToListAsync()) :
-                        Problem("Entity set 'Usuario.local'  is null.");
+                        Problem("Entity set 'Usuario'  is null.");
         }
         // GET: Usuario/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -79,7 +100,7 @@ namespace Fut360.Controllers
             return View(usuarioModel);
         }
 
-        // POST: Local/Edit/5
+        // POST: Usuario/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Login,Email,Contato,Senha")] UsuarioModel usuarioModel)

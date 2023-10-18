@@ -504,3 +504,4 @@ C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\refint\Fut36
 C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\Fut360.pdb
 C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\Fut360.genruntimeconfig.cache
 C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\ref\Fut360.dll
+C:\Users\cairogomes\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
