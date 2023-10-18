@@ -505,3 +505,14 @@ C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\Fut360.pdb
 C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\Fut360.genruntimeconfig.cache
 C:\Users\User\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\ref\Fut360.dll
 C:\Users\cairogomes\OneDrive\IFMS -TSI\Fut\Fut360\Fut360\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.csproj.AssemblyReference.cache
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.AssemblyInfoInputs.cache
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.AssemblyInfo.cs
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.csproj.CoreCompileInputs.cache
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.RazorAssemblyInfo.cache
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.RazorAssemblyInfo.cs
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.dll
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\refint\Fut360.dll
+C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.pdb
