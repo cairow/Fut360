@@ -44,7 +44,9 @@ namespace Fut360.Controllers
                 {
 
                     // tenho que pegar o login pra comparar
-                    UsuarioModel usuario = _context.(loginModel.Login);
+                    // UsuarioModel usuario = _context.(loginModel.Login);
+
+                    UsuarioModel? usuario = _context.Find<UsuarioModel>(loginModel.Login);
 
                     if (usuario != null)
                     {
