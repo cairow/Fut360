@@ -513,6 +513,3 @@ C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.csproj.CoreCompileInput
 C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.RazorAssemblyInfo.cache
 C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.RazorAssemblyInfo.cs
-C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.dll
-C:\Users\cairogomes\source\repos\obj\Debug\net7.0\refint\Fut360.dll
-C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.pdb

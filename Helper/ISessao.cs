@@ -5,7 +5,7 @@ namespace Fut360.Helper
     public interface ISessao
     {
         void CriarSessaoDoUsuario(UsuarioModel usuario);
-        void RemoverSessaoDoUsuario(UsuarioModel usuario);
+        public void RemoverSessaoDoUsuario(UsuarioModel usuario);
         UsuarioModel BuscarSessaoDoUsuario();
     }
 }

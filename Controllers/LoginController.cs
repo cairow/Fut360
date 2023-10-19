@@ -27,9 +27,9 @@ namespace Fut360.Controllers
             return View();
         }
 
-        public IActionResult Sair()
+        public IActionResult Sair(UsuarioModel usuario)
         {
-            _sessao.RemoverSessaoDoUsuario();
+            _sessao.RemoverSessaoDoUsuario(usuario);
 
             return RedirectToAction("Index", "Login");
         }
