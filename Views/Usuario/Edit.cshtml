@@ -1,5 +1,4 @@
-﻿@using Fut360.Enums;
-@model Fut360.Models.UsuarioModel
+﻿@model Fut360.Models.UsuarioModel
 
 @{
     ViewData["Title"] = "Editar Usuário";
@@ -41,14 +40,7 @@
                 <span asp-validation-for="Contato" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label for="contato">Perfil</label>
-                <select asp-for="Perfil" class="form-control">
-                    <option value="0">Selecione</option>
-                    <option value="@PerfilEnum.Admin">Administrador</option>
-                    <option value="@PerfilEnum.Padrao">Padrão</option>
-                </select>
-            </div>
+
 
 
             <div class="form-group">

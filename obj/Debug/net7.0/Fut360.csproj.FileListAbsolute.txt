@@ -759,3 +759,9 @@ C:\Users\cairogomes\source\repos\obj\Debug\net7.0\refint\Fut360.dll
 C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.pdb
 C:\Users\cairogomes\source\repos\obj\Debug\net7.0\Fut360.genruntimeconfig.cache
 C:\Users\cairogomes\source\repos\obj\Debug\net7.0\ref\Fut360.dll
+C:\Users\cairogomes\source\repos\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\cairogomes\source\repos\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\cairogomes\source\repos\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\cairogomes\source\repos\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\cairogomes\source\repos\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\cairogomes\source\repos\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

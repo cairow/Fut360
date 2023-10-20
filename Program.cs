@@ -1,5 +1,5 @@
 using Fut360.Data;
-using Fut360.Helper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,15 +9,17 @@ builder.Services.AddDbContext<Contexto>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Contexto>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ISessao, Sessao>();
 
 builder.Services.AddSession(o =>
 {
     o.Cookie.HttpOnly = true;
     o.Cookie.IsEssential = true;
 });
+
 
 var app = builder.Build();
 
@@ -34,10 +36,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
