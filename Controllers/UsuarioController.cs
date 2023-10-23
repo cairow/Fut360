@@ -1,10 +1,12 @@
 ﻿using Fut360.Data;
 using Fut360.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fut360.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class UsuarioController : Controller
     {
 
@@ -14,7 +16,6 @@ namespace Fut360.Controllers
         {
             _context = context;
         }
-
         // GET: Usuario/BuscarPorLogin
         public IActionResult BuscarPorLogin(string login)
         {
@@ -22,7 +23,6 @@ namespace Fut360.Controllers
             {
                 return NotFound();
             }
-
 
             var usuarioModel = _context.Usuario.FirstOrDefaultAsync(m => m.Login.ToUpper() == login.ToUpper());
 
@@ -34,8 +34,6 @@ namespace Fut360.Controllers
             return View(usuarioModel);
 
         }
-
-
         // GET: Usuario
         public async Task<IActionResult> Index()
         {
