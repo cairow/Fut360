@@ -27,6 +27,13 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric = false;
 });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireUserAdminAprovadorRole",
+        policy => policy.RequireRole("User", "Admin", "Aprovador"));
+});
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -58,6 +65,15 @@ await CriarPerfisUsuariosAsync(app);
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "MinhaArea",
+      pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
+    );
+});
 
 app.MapControllerRoute(
     name: "default",

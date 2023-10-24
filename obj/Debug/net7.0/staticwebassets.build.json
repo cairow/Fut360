@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bU1RMdPrT9ZTnwycy6hAGmRWHVHkNUtUngcArf688NU=",
+  "Hash": "J32wzVbEfb8CZ0FMQ+ytw4+c/SJwmcuhRuO1B5RzGnA=",
   "Source": "Fut360",
   "BasePath": "_content/Fut360",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\images\\admin.jpg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "images/admin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\images\\fut_ind.jpg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "images/fut_ind.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fut_ind.jpg"
     },
     {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\js\\site.js",

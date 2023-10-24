@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Fut360.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class UsuarioController : Controller
     {
 

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Fut360.Data;
 using Fut360.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Fut360.Controllers
 {
+    [Authorize]
     public class LocalController : Controller
     {
         private readonly Contexto _context;
@@ -20,6 +22,7 @@ namespace Fut360.Controllers
         }
 
         // GET: Local
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
               return _context.Local != null ? 
@@ -28,6 +31,8 @@ namespace Fut360.Controllers
         }
 
         // GET: Local/Details/5
+        //[Authorize(Roles  = "User, Admin, Aprovador")]
+        [Authorize(Policy = "RequireUserAdminAprovadorRole")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Local == null)
@@ -46,12 +51,15 @@ namespace Fut360.Controllers
         }
 
         // GET: Local/Create
+        //[Authorize(Roles = "User, Admin, Aprovador")]
+        [Authorize(Policy = "RequireUserAdminAprovadorRole")]
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: Local/Create
+        [Authorize(Roles = "User, Admin, Aprovador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel)
@@ -65,6 +73,7 @@ namespace Fut360.Controllers
             return View(localModel);
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Local/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -80,8 +89,9 @@ namespace Fut360.Controllers
             }
             return View(localModel);
         }
-
+        [Authorize(Roles = "Admin")]
         // POST: Local/Edit/5
+        [Authorize(Roles = "Admin, Aprovador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel)
@@ -114,7 +124,9 @@ namespace Fut360.Controllers
             return View(localModel);
         }
 
+        [Authorize(Roles = "Admin")]
         // GET: Local/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Local == null)
@@ -133,6 +145,7 @@ namespace Fut360.Controllers
         }
 
         // POST: Local/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\images\\admin.jpg",
+      "PackagePath": "staticwebassets\\images\\admin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\images\\fut_ind.jpg",
+      "PackagePath": "staticwebassets\\images\\fut_ind.jpg"
+    },
+    {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

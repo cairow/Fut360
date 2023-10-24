@@ -81,5 +81,11 @@ namespace Fut360.Controllers
             await signInManager.SignOutAsync();
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        [Route("/Account/AccessDenied")]
+        public ActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }
