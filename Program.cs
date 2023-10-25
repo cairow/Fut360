@@ -1,8 +1,8 @@
 using Fut360.Data;
 using Fut360.Services;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,7 +33,6 @@ builder.Services.AddAuthorization(options =>
         policy => policy.RequireRole("User", "Admin", "Aprovador"));
 });
 
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -44,7 +43,6 @@ builder.Services.AddSession(o =>
 });
 
 builder.Services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
-
 
 var app = builder.Build();
 
@@ -61,11 +59,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-await CriarPerfisUsuariosAsync(app);
+CriarPerfisUsuariosAsync(app);
 
 app.UseAuthentication();
 app.UseAuthorization();
-
 
 app.UseEndpoints(endpoints =>
 {
@@ -81,14 +78,10 @@ app.MapControllerRoute(
 
 app.Run();
 
-async Task CriarPerfisUsuariosAsync(WebApplication app)
+static void CriarPerfisUsuariosAsync(WebApplication app)
 {
     var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
 
-    using (var scope = scopedFactory.CreateScope())
-    {
-        var service = scope.ServiceProvider.GetService<ISeedUserRoleInitial>();
-        await service.SeedRolesAsync();
-        await service.SeedUsersAsync();
-    }
+    using var scope = scopedFactory?.CreateScope();
+    scope?.ServiceProvider.GetService<ISeedUserRoleInitial>()?.SeedRolesAsync();
 }

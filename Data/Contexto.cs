@@ -1,6 +1,6 @@
 ﻿using Fut360.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Fut360.Data
 {
@@ -11,8 +11,6 @@ namespace Fut360.Data
         }
         public DbSet<UsuarioModel> Usuario { get; set; }
         public DbSet<LocalModel> Local { get; set; }
-        
-        
-
+        public DbSet<AgendamentoModel> AgendamentoModel { get; set; }
     }
 }

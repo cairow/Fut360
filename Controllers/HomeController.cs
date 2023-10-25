@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Fut360.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Runtime.CompilerServices;
 
 namespace Fut360.Controllers
 {

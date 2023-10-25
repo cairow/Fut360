@@ -31,8 +31,8 @@ namespace Fut360.Controllers
             }
 
             return View(usuarioModel);
-
         }
+
         // GET: Usuario
         public async Task<IActionResult> Index()
         {
@@ -48,8 +48,8 @@ namespace Fut360.Controllers
                 return NotFound();
             }
 
-            var usuarioModel = await _context.Usuario
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var usuarioModel = await _context.Usuario.FirstOrDefaultAsync(m => m.Id == id);
+
             if (usuarioModel == null)
             {
                 return NotFound();

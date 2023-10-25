@@ -24,6 +24,5 @@ namespace Fut360.Models
         {
             return Senha == senha;
         }
-
     }
 }
