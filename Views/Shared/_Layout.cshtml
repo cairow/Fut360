@@ -29,9 +29,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Local" asp-action="Index">Locais</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Index">Usuários</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Agendamento" asp-action="Index">Agendamento</a>
                         </li>
-                        <partial name="_LoginPartial.cshtml" />
+                        <partial name="_LoginAdmin.cshtml" />
+
+                        <partial name="_LoginPartial.cshtml" display:flex />
+                        
                     </ul>
                 </div>
 
