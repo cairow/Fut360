@@ -14,7 +14,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: repeating-linear-gradient()
+    
 }
 
 .field-validation-error {

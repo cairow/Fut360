@@ -4,9 +4,10 @@ namespace Fut360.Models
 {
     public class RegisterViewModel
     {
+        public string Nome { get; set; }        
+
         [Required]
         [EmailAddress]
-
         public string? Email { get; set; }
 
         [Required]

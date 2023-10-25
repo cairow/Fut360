@@ -4,11 +4,11 @@
     ViewData["Title"] = "Listagem de Locais";
 }
 <div class="text-center">
-
-    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <br />
+    <div class="mx-auto p-2">
         <a class="btn btn-primary" role="button" asp-controller="Local" asp-action="Create">Adicionar Local</a>
     </div>
-    <br/>
+    
 
     @if (TempData["MensagemSucesso"] != null)
     {
@@ -24,16 +24,14 @@
             @TempData["MensagemErro"]
         </div>
     }
-    
+
     <br/>
-
-
     <h1 class="display-4">Lista de Locais</h1>
 
     <table class="table" id="table-locais">
-        <thead>
+        <thead class="table-dark">
             <tr>
-                <th scope="col">ID</th>
+      
                 <th scope="col">Nome</th>
                 <th scope="col">Endereço</th>
                 <th scope="col">Horários</th>
@@ -47,7 +45,7 @@
                 foreach (LocalModel local in Model)
                 { 
                 <tr>
-                        <th scope="row">@local.Id</th>
+
                         <td>@local.Nome</td>
                         <td>@local.Endereco</td>
                         <td>@local.Horario</td>

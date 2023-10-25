@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<Fut360.Models.AgendamentoModel>
 
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -13,7 +14,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th></th>
         </tr>
@@ -22,7 +23,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
@@ -33,3 +34,17 @@
 }
     </tbody>
 </table>
+
+</br>
+</br>
+<div>
+
+    <select name="localAgendamento" class="form-select" >
+            <option value="">Selecione um item</option>
+            @foreach (var item in Model)
+            {
+                <option value="@item.Nome">@item.Nome</option>
+            }
+        </select>
+
+</div>

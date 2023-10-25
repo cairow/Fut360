@@ -9,137 +9,133 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fut360
 build_property.RootNamespace = Fut360
-build_property.ProjectDir = C:\Users\cairogomes\Source\Repos\Fut360\
+build_property.ProjectDir = C:\Users\cairogomes\source\repos\Fut360\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\cairogomes\Source\Repos\Fut360
+build_property.MSBuildProjectDirectory = C:\Users\cairogomes\source\repos\Fut360
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/AdminRoles/Create.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/AdminRoles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/AdminRoles/Delete.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/AdminRoles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/AdminRoles/Index.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/AdminRoles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/AdminRoles/Update.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/AdminRoles/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/AdminUsers/Index.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/AdminUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/Admin/Index.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Account/AccessDenied.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Account/Login.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Account/Register.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Agendamento/Create.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Agendamento/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Agendamento/Delete.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Agendamento/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Agendamento/Details.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Agendamento/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Agendamento/Edit.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Agendamento/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Agendamento/Index.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Agendamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Home/Index.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Local/Create.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Local/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Local/Delete.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Local/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Local/Details.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Local/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Local/Edit.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Local/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Local/Index.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Local/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Shared/Error.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Shared/_LoginAdmin.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Shared/_LoginAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/_ViewImports.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/_ViewStart.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Shared/_Layout.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uvbo2526dt
 
-[C:/Users/cairogomes/Source/Repos/Fut360/Views/Shared/_LayoutDeslogado.cshtml]
+[C:/Users/cairogomes/source/repos/Fut360/Views/Shared/_LayoutDeslogado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZXNsb2dhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j5cqz1c50k
