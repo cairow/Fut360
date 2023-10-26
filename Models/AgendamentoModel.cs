@@ -6,7 +6,7 @@ namespace Fut360.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public LocalModel LocalId { get; set; }
-        public IdentityRole UsuarioId { get; set; }
+        public DateTime? HorarioDisponivel { get; set; }
+        public DateTime? HorarioReservado { get; set; }
     }
 }

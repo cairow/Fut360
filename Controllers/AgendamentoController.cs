@@ -22,9 +22,9 @@ namespace Fut360.Controllers
         // GET: Agendamento
         public async Task<IActionResult> Index()
         {
-            return _context.AgendamentoModel != null ?
-                        View(await _context.AgendamentoModel.ToListAsync()) :
-                        Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+              return _context.AgendamentoModel != null ? 
+                          View(await _context.AgendamentoModel.ToListAsync()) :
+                          Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
         }
 
         // GET: Agendamento/Details/5
@@ -56,7 +56,7 @@ namespace Fut360.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] AgendamentoModel agendamentoModel)
+        public async Task<IActionResult> Create([Bind("Id,Nome,HorarioDisponivel,HorarioReservado")] AgendamentoModel agendamentoModel)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace Fut360.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] AgendamentoModel agendamentoModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,HorarioDisponivel,HorarioReservado")] AgendamentoModel agendamentoModel)
         {
             if (id != agendamentoModel.Id)
             {
@@ -150,14 +150,14 @@ namespace Fut360.Controllers
             {
                 _context.AgendamentoModel.Remove(agendamentoModel);
             }
-
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AgendamentoModelExists(int id)
         {
-            return (_context.AgendamentoModel?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.AgendamentoModel?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

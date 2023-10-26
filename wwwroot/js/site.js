@@ -5,7 +5,7 @@
 
 $(document).ready(function () {
     getDataTable('#table-locais');
-    getDataTable('#table-usuarios');
+    getDataTable('#table-agendamento');
 });
 
 function getDataTable(id){
