@@ -12,6 +12,7 @@ namespace Fut360.Controllers
 {
     public class AgendamentoController : Controller
     {
+  
         private readonly Contexto _context;
 
         public AgendamentoController(Contexto context)
@@ -36,7 +37,7 @@ namespace Fut360.Controllers
             }
 
             var agendamentoModel = await _context.AgendamentoModel
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.localModel.Id == id);
             if (agendamentoModel == null)
             {
                 return NotFound();
@@ -52,16 +53,19 @@ namespace Fut360.Controllers
         }
 
         // POST: Agendamento/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,HorarioDisponivel,HorarioReservado")] AgendamentoModel agendamentoModel)
         {
+            
+
             if (ModelState.IsValid)
             {
                 _context.Add(agendamentoModel);
                 await _context.SaveChangesAsync();
+
+                
+
                 return RedirectToAction(nameof(Index));
             }
             return View(agendamentoModel);

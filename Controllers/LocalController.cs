@@ -16,9 +16,12 @@ namespace Fut360.Controllers
     {
         private readonly Contexto _context;
 
-        public LocalController(Contexto context)
+        private string caminhoServidor;
+
+        public LocalController(Contexto context, IWebHostEnvironment sistema)
         {
             _context = context;
+            caminhoServidor = sistema.WebRootPath;
         }
 
         // GET: Local
@@ -62,12 +65,26 @@ namespace Fut360.Controllers
         [Authorize(Roles = "User, Admin, Aprovador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel, IFormFile foto)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(localModel);
                 await _context.SaveChangesAsync();
+
+                //salvar foto
+                string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
+                string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+                if (!Directory.Exists(caminhoParaSalvarImagem))
+                {
+                    Directory.CreateDirectory(caminhoParaSalvarImagem);
+                }
+
+                using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+                {
+                    foto.CopyToAsync(stream);
+                }
+
                 return RedirectToAction(nameof(Index));
             }
             return View(localModel);

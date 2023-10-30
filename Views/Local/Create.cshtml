@@ -6,11 +6,11 @@
 
 <div class="text-center">
 
-    <h1 class="display-4">Cadastrar Local</h1>
+    <h2 class="">Cadastrar Local</h2>
   
 </div>
 
-<form asp-controller="Local" asp-action="Create" method="post">
+<form asp-controller="Local" asp-action="Create" method="post" enctype="multipart/form-data">
 
     <div class="form-group" >
         <label for="nome">Nome</label>
@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
         <label for="email">Endereço</label>
-        <input type="text" asp-for="Endereco" class="form-control" placeholder="Digite o Endereço Completo:">
+        <input type="text" asp-for="Endereco" class="form-control" placeholder="Digite o Endereço Completo">
         @Html.ValidationMessageFor(x => x.Endereco)
     </div>
     <div class="form-group">
@@ -31,6 +31,11 @@
         <label for="contato">Forma de Pagamento</label>
         <input type="text" asp-for="Pagamento" class="form-control" placeholder="Insira a forma de pagamento: ">
         @Html.ValidationMessageFor(x => x.Pagamento)
+    </div>
+    </br>
+    <label>Insira uma foto de apresentação do local:     </label>
+    <div class="input-group mb-3">
+        <input type="file" class="form-control" id="inputGroupFile02" name="foto">
     </div>
 
     <button type="submit" class="btn btn-primary btn-block">Adicionar</button>

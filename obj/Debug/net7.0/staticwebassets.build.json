@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "epa/3XLXofWl/iMKycvDSjzxf+yz7KslWA8U9lsiUtg=",
+  "Hash": "u5PmvmqA4LStM6bYdECbIPWJFJTDtBOuGVHQu7mBKSo=",
   "Source": "Fut360",
   "BasePath": "_content/Fut360",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\18daa4b1-3c56-4117-add9-b48ab30986c9_1681994358351.jpg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/18daa4b1-3c56-4117-add9-b48ab30986c9_1681994358351.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\18daa4b1-3c56-4117-add9-b48ab30986c9_1681994358351.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\9ab9f890-2d6c-4a3d-83de-ea22c18a77ad_1681994358351.jpg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/9ab9f890-2d6c-4a3d-83de-ea22c18a77ad_1681994358351.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\9ab9f890-2d6c-4a3d-83de-ea22c18a77ad_1681994358351.jpg"
     },
     {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\images\\admin.jpg",

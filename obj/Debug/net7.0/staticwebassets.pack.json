@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\18daa4b1-3c56-4117-add9-b48ab30986c9_1681994358351.jpg",
+      "PackagePath": "staticwebassets\\fotos\\18daa4b1-3c56-4117-add9-b48ab30986c9_1681994358351.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\9ab9f890-2d6c-4a3d-83de-ea22c18a77ad_1681994358351.jpg",
+      "PackagePath": "staticwebassets\\fotos\\9ab9f890-2d6c-4a3d-83de-ea22c18a77ad_1681994358351.jpg"
+    },
+    {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\images\\admin.jpg",
       "PackagePath": "staticwebassets\\images\\admin.jpg"
     },

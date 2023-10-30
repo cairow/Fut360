@@ -1,23 +1,12 @@
 ﻿@model List<LocalModel>
 
 @{
-    ViewData["Title"] = "Listagem de Locais";
+    ViewData["Title"] = "Locais Disponíveis";
 }
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEKJGs3U9bOei9fX6DeEGCexrKSooFlx4"></script>
-<script>
-    function initMap() {
-        var options = {
-            zoom: 8,
-                center: { lat: -20.4577761, lng: -54.673643 } // Defina as coordenadas iniciais aqui
-        };
-        var map = new google.maps.Map(document.getElementById('map'), options);
-    }
-</script>
 
 
 <div class="text-center">
-    <br />
+ 
     <div class="mx-auto p-2">
         <a class="btn btn-primary" role="button" asp-controller="Local" asp-action="Create">Adicionar Local</a>
     </div>
@@ -38,8 +27,6 @@
     }
 
     <br/>
-
-    <div id="map" style="height: 400px; width: 100%;"></div>
 
     <table class="table" id="table-locais">
         <thead class="table-dark">

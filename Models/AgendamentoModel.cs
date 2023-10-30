@@ -5,8 +5,8 @@ namespace Fut360.Models
     public class AgendamentoModel
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
-        public DateTime? HorarioDisponivel { get; set; }
-        public DateTime? HorarioReservado { get; set; }
+        public LocalModel localModel { get; set; }
+        public IdentityUser userModel { get; set; }
+
     }
 }
