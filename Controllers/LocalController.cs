@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Fut360.Controllers
 {
-    [Authorize]
     public class LocalController : Controller
     {
         private readonly Contexto _context;
@@ -65,25 +64,35 @@ namespace Fut360.Controllers
         [Authorize(Roles = "User, Admin, Aprovador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel, IFormFile foto)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(localModel);
                 await _context.SaveChangesAsync();
-
                 //salvar foto
-                string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
-                string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
-                if (!Directory.Exists(caminhoParaSalvarImagem))
-                {
-                    Directory.CreateDirectory(caminhoParaSalvarImagem);
-                }
+                //string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
+                //string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+                //if (!Directory.Exists(caminhoParaSalvarImagem))
+                //{
+                //    Directory.CreateDirectory(caminhoParaSalvarImagem);
+                //}
 
-                using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
-                {
-                    foto.CopyToAsync(stream);
-                }
+                //using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+                //{
+                //    foto.CopyToAsync(stream);
+                //}
+                //if (foto != null && foto.Length > 0)
+                //{
+                //   using (var stream = new MemoryStream())
+                //    {
+                //        await foto.CopyToAsync(stream);
+                //        LocalModel novaImagem = new LocalModel { ImagemLocal = stream.ToArray() };
+                //        _context.Local.Add(novaImagem);
+                //        await _context.SaveChangesAsync();
+                //    }
+                //}
+              
 
                 return RedirectToAction(nameof(Index));
             }

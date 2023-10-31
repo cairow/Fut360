@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Fut360.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Fut360.Controllers

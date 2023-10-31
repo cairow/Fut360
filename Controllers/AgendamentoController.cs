@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Fut360.Data;
 using Fut360.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Fut360.Controllers
 {

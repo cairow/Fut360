@@ -7,6 +7,7 @@
         public string Endereco { get; set; }
         public string Horario { get; set; }
         public string Pagamento { get; set; }
+        //public byte[] ImagemLocal { get; set; } 
     }
 }
 
