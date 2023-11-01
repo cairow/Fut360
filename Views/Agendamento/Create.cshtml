@@ -3,14 +3,12 @@
 @{
     ViewData["Title"] = "Realizar um agendamento";
 }
-
-<h1>Create</h1>
-
-<h4>Realizar Agendamento de Local:</h4>
+<h1>RESERVAR</h1>
+<h4>Realizar a reserva do horário:</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-controller="Agendamento" asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="localModel.Nome" class="control-label"></label>
@@ -18,21 +16,18 @@
                 <span asp-validation-for="localModel.Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="localModel.Horario" class="control-label"></label>
-                <input asp-for="localModel.Horario" class="form-control" />
-                <span asp-validation-for="localModel.Horario" class="text-danger"></span>
+                <label for="data">Data</label>
+                <input type="date" class="form-control" id="data" name="data" value="2023-11-01" />
             </div>
-            <div class="form-group">
-                <label asp-for="userModel.UserName" class="control-label"></label>
-                <input asp-for="userModel.UserName" class="form-control" />
-                <span asp-validation-for="userModel.UserName" class="text-danger"></span>
-            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
+
     </div>
 </div>
+
 
 <div>
     <a asp-action="Index">Back to List</a>

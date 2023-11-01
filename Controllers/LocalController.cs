@@ -150,7 +150,7 @@ namespace Fut360.Controllers
             return View(localModel);
         }
 
-        [Authorize(Roles = "Admin")]
+        
         // GET: Local/Delete/5
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
