@@ -2,18 +2,15 @@ using Fut360.Data;
 using Fut360.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<Contexto>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionDocker"));
 });
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Contexto>();
-
-
 
 builder.Services.AddAuthentication("CookieAuthentication").AddCookie("CookieAuthentication", options =>
 {
@@ -82,15 +79,12 @@ app.MapControllerRoute(
 
 app.Run();
 
-async Task CriarPerfisUsuariosAsync(WebApplication app)
+static async Task CriarPerfisUsuariosAsync(WebApplication app)
 {
     var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
-    using (var scope = scopedFactory.CreateScope())
-    {
-        var service = scope.ServiceProvider.GetService<ISeedUserRoleInitial>();
-        await service.SeedRolesAsync();
-        await service.SeedUsersAsync();
+    using var scope = scopedFactory?.CreateScope();
 
-    }
+    var service = scope?.ServiceProvider.GetService<ISeedUserRoleInitial>();
+    await service?.SeedRolesAsync();
+    await service?.SeedUsersAsync();
 }
-

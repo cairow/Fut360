@@ -16,7 +16,7 @@ namespace Fut360.Controllers
     {
         private readonly Contexto _context;
 
-        private string caminhoServidor;
+        private readonly string caminhoServidor;
 
         public LocalController(Contexto context, IWebHostEnvironment sistema)
         {
@@ -28,9 +28,9 @@ namespace Fut360.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-              return _context.Local != null ? 
-                          View(await _context.Local.ToListAsync()) :
-                          Problem("Entity set 'Contexto.local'  is null.");
+            return _context.Local != null ?
+                        View(await _context.Local.ToListAsync()) :
+                        Problem("Entity set 'Contexto.local'  is null.");
         }
 
         // GET: Local/Details/5
@@ -62,41 +62,40 @@ namespace Fut360.Controllers
         }
 
         // POST: Local/Create
-        [Authorize(Roles = "User, Admin, Aprovador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel)
+        [Authorize(Roles = "User, Admin, Aprovador")]
+        public async Task<IActionResult> Create(LocalModel localModel)
         {
+            var foto = HttpContext.Request.Form.Files[0];
+
             if (ModelState.IsValid)
             {
+                if (foto != null && foto.Length > 0)
+                {
+                    //salvar foto
+                    string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
+                    string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+
+                    if (!Directory.Exists(caminhoParaSalvarImagem))
+                    {
+                        Directory.CreateDirectory(caminhoParaSalvarImagem);
+                    }
+
+                    using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+                    {
+                        await foto.CopyToAsync(stream);
+                    }
+
+                    localModel.ImagemLocal = novoNomeParaImagem;
+                }
+
                 _context.Add(localModel);
                 await _context.SaveChangesAsync();
-                //salvar foto
-                //string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
-                //string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
-                //if (!Directory.Exists(caminhoParaSalvarImagem))
-                //{
-                //    Directory.CreateDirectory(caminhoParaSalvarImagem);
-                //}
-
-                //using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
-                //{
-                //    foto.CopyToAsync(stream);
-                //}
-                //if (foto != null && foto.Length > 0)
-                //{
-                //   using (var stream = new MemoryStream())
-                //    {
-                //        await foto.CopyToAsync(stream);
-                //        LocalModel novaImagem = new LocalModel { ImagemLocal = stream.ToArray() };
-                //        _context.Local.Add(novaImagem);
-                //        await _context.SaveChangesAsync();
-                //    }
-                //}
-              
 
                 return RedirectToAction(nameof(Index));
             }
+
             return View(localModel);
         }
 
@@ -116,6 +115,7 @@ namespace Fut360.Controllers
             }
             return View(localModel);
         }
+
         [Authorize(Roles = "Admin")]
         // POST: Local/Edit/5
         [Authorize(Roles = "Admin, Aprovador")]
@@ -151,7 +151,7 @@ namespace Fut360.Controllers
             return View(localModel);
         }
 
-        
+
         // GET: Local/Delete/5
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
@@ -186,14 +186,14 @@ namespace Fut360.Controllers
             {
                 _context.Local.Remove(localModel);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool LocalModelExists(int id)
         {
-          return (_context.Local?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Local?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
