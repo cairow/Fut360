@@ -33,6 +33,12 @@ namespace Fut360.Migrations
                     b.Property<DateTime>("Data")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("HoraFinal")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("HoraInicial")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("localModelId")
                         .HasColumnType("int");
 

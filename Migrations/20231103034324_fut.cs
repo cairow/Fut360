@@ -6,15 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Fut360.Migrations
 {
     /// <inheritdoc />
-    public partial class Identity : Migration
+    public partial class fut : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Perfil",
-                table: "Usuario");
-
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
@@ -52,6 +48,22 @@ namespace Fut360.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Local",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Horario = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Pagamento = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Local", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -160,6 +172,44 @@ namespace Fut360.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "AgendamentoModel",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Data = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    HoraInicial = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    HoraFinal = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    localModelId = table.Column<int>(type: "int", nullable: false),
+                    userModelId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AgendamentoModel", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_AgendamentoModel_AspNetUsers_userModelId",
+                        column: x => x.userModelId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_AgendamentoModel_Local_localModelId",
+                        column: x => x.localModelId,
+                        principalTable: "Local",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AgendamentoModel_localModelId",
+                table: "AgendamentoModel",
+                column: "localModelId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AgendamentoModel_userModelId",
+                table: "AgendamentoModel",
+                column: "userModelId");
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -204,6 +254,9 @@ namespace Fut360.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "AgendamentoModel");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
             migrationBuilder.DropTable(
@@ -219,17 +272,13 @@ namespace Fut360.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Local");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
-
-            migrationBuilder.AddColumn<int>(
-                name: "Perfil",
-                table: "Usuario",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
         }
     }
 }

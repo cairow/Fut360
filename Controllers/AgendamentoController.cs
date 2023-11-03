@@ -56,7 +56,7 @@ namespace Fut360.Controllers
         // POST: Agendamento/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,HorarioDisponivel,HorarioReservado")] AgendamentoModel agendamentoModel)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Data,HorarioInicial, HorarioFinal")] AgendamentoModel agendamentoModel)
         {
             
 
@@ -64,8 +64,6 @@ namespace Fut360.Controllers
             {
                 _context.Add(agendamentoModel);
                 await _context.SaveChangesAsync();
-
-                
 
                 return RedirectToAction(nameof(Index));
             }

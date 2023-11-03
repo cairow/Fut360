@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Fut360.Controllers
 {
+    [Authorize]
     public class LocalController : Controller
     {
         private readonly Contexto _context;

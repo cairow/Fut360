@@ -13,6 +13,8 @@ builder.Services.AddDbContext<Contexto>(options =>
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Contexto>();
 
+
+
 builder.Services.AddAuthentication("CookieAuthentication").AddCookie("CookieAuthentication", options =>
 {
     options.LoginPath = "/Account/Login";
@@ -61,7 +63,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-CriarPerfisUsuariosAsync(app);
+await CriarPerfisUsuariosAsync(app);
 
 app.UseAuthentication();
 app.UseAuthorization();
@@ -80,10 +82,15 @@ app.MapControllerRoute(
 
 app.Run();
 
-static void CriarPerfisUsuariosAsync(WebApplication app)
+async Task CriarPerfisUsuariosAsync(WebApplication app)
 {
     var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
+    using (var scope = scopedFactory.CreateScope())
+    {
+        var service = scope.ServiceProvider.GetService<ISeedUserRoleInitial>();
+        await service.SeedRolesAsync();
+        await service.SeedUsersAsync();
 
-    using var scope = scopedFactory?.CreateScope();
-    scope?.ServiceProvider.GetService<ISeedUserRoleInitial>()?.SeedRolesAsync();
+    }
 }
+
