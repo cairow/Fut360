@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Fut360.Data;
 using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+using MvcWebIdentity.Areas.Admin.Controllers;
 
 namespace Fut360.Controllers
 {
@@ -56,13 +59,21 @@ namespace Fut360.Controllers
         // POST: Agendamento/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Data,HorarioInicial, HorarioFinal")] AgendamentoModel agendamentoModel)
+        public async Task<IActionResult> Create(AgendamentoModel agendamentoModel)
         {
+
+            //pega ID do usuario logado
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            agendamentoModel.userModel = await _context.FindAsync<IdentityUser>(userId);
             
+            //pega o Id do local
+            agendamentoModel.localModel = _context.Find<LocalModel>(agendamentoModel.Id);
 
             if (ModelState.IsValid)
             {
+              
                 _context.Add(agendamentoModel);
+
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));

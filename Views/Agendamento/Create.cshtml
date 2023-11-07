@@ -10,9 +10,8 @@
     <div class="col-md-4">
         <form asp-controller="Agendamento" asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
 
-           
+            <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
 
             <div class="form-group">
                 <label for="data">Data</label>
