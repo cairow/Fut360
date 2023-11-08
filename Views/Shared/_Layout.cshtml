@@ -11,26 +11,26 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiar nav-tabs">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0justify-content-endjustify-content-endjustify-content-end">
-                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/fut360logo.png" width="60" height="30" /></a>
-                        
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <a class="navbar-brand" asp-area="" asp-controller="Local" asp-action="Index"><img src="~/images/fut360logo.png" width="60" height="30" /></a>
                         <partial name="_LoginAdmin.cshtml" />
-
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Local" asp-action="Index">Locais</a>
+                            <a class="nav-link active" aria-current="page" asp-area="" asp-controller="Local" asp-action="Index">Locais</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Agendamento" asp-action="Index">Agendamento</a>
+                            <a class="nav-link" asp-area="" asp-controller="Agendamento" asp-action="Index">Meus Agendamentos</a>
                         </li>
-                 
+                        
                     </ul>
-                        <partial name="_LoginPartial.cshtml" display:flex />
+                    <partial name="_LoginPartial.cshtml" display:flex />
                 </div>
+
+
+                
             </div>
         </nav>
 

@@ -43,10 +43,13 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+.login-container-img {
+    text-align: center;
+}
 
 .login-container h2 {
     text-align: center;
- }
+}
 
     .login-container input[type="text"],
     .login-container input[type="password"] {

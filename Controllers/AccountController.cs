@@ -42,7 +42,7 @@ namespace Fut360.Controllers
                 if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "home");
+                    return RedirectToAction("Index", "Local");
                 }
 
                 // Se houver erros então inclui no ModelState
@@ -82,7 +82,7 @@ namespace Fut360.Controllers
         {
             await signInManager.SignOutAsync();
 
-            return RedirectToAction("Index", "home");
+            return RedirectToAction("Login", "Account");
         }
 
         [HttpGet]

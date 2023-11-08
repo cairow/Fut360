@@ -3,6 +3,13 @@
 
 // Write your JavaScript code.
 
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+}
 $(document).ready(function () {
     getDataTable('#table-locais');
     getDataTable('#table-agendamento');

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Knk30hYOf1UZe44HNmEJRRQHuZJgjnc1wYQFidcj+hQ=",
+  "Hash": "EFTYXc/Zp+4l9RzMSvRPPRAxOoZx3oWNE00nhMyp+ns=",
   "Source": "Fut360",
   "BasePath": "_content/Fut360",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\Repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg"
+    },
+    {
       "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg",
       "SourceId": "Fut360",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg"
+    },
+    {
+      "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\Repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg"
     },
     {
       "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg",
@@ -119,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg"
     },
     {
+      "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\Repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg"
+    },
+    {
       "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg",
       "SourceId": "Fut360",
       "SourceType": "Discovered",
@@ -134,6 +185,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg"
+    },
+    {
+      "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\Repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg"
+    },
+    {
+      "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV\\Repos\\Fut360\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg"
     },
     {
       "Identity": "D:\\DEV\\Repos\\Fut360\\wwwroot\\images\\admin.jpg",

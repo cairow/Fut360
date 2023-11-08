@@ -9,7 +9,7 @@
     <div class="mx-auto p-2">
         <a class="btn btn-primary" role="button" asp-controller="Local" asp-action="Create">Adicionar Local</a>
     </div>
-
+    </br>
     <div class="row">
         @if (Model != null && Model.Any())
 
@@ -19,7 +19,7 @@
 
             {
                 <div class="card" style="width: 18rem;">
-                    <img src="~/fotos/@local.ImagemLocal" class="card-img-top" />
+                    <img src="~/fotos/@local.ImagemLocal" class="img-fluid" />
                     <div class="card-body">
                         <h5 class="card-title">@local.Nome</h5>
                     </div>
@@ -39,6 +39,7 @@
     </div>
 
     <br />
+    </br>
 
     <table class="table" id="table-locais">
         <thead class="table-dark">

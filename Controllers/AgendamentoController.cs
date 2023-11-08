@@ -61,24 +61,25 @@ namespace Fut360.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AgendamentoModel agendamentoModel)
         {
+            
+            //var datalocal = _context.Local.FindAsync(agendamentoModel.localModel.Id);
+            //if (agendamentoModel.Data.Equals(datalocal))
+            //{ 
+            //}
 
             //pega ID do usuario logado
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             agendamentoModel.userModel = await _context.FindAsync<IdentityUser>(userId);
-            
             //pega o Id do local
             agendamentoModel.localModel = _context.Find<LocalModel>(agendamentoModel.Id);
+            agendamentoModel.Id = 0;
+            agendamentoModel.Aprovado = false;
 
-            if (ModelState.IsValid)
-            {
-              
+          
                 _context.Add(agendamentoModel);
-
                 await _context.SaveChangesAsync();
-
                 return RedirectToAction(nameof(Index));
-            }
-            return View(agendamentoModel);
+
         }
 
         // GET: Agendamento/Edit/5
