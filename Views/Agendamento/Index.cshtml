@@ -18,10 +18,10 @@
                 @Html.DisplayNameFor(model => model.localModel.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.localModel.Horario)
+                @Html.DisplayNameFor(model => model.DataHoraInicial)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.userModel.UserName)
+                @Html.DisplayNameFor(model => model.DataHoraFinal)
             </th>
             <th></th>
         </tr>
@@ -33,10 +33,10 @@
                 @Html.DisplayFor(modelItem => item.localModel.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.localModel.Horario)
+                @Html.DisplayFor(modelItem => item.DataHoraInicial)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.userModel.UserName)
+                @Html.DisplayFor(modelItem => item.DataHoraFinal)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

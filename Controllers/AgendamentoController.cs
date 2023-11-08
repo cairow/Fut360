@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using MvcWebIdentity.Areas.Admin.Controllers;
+using Humanizer;
 
 namespace Fut360.Controllers
 {
@@ -28,7 +29,7 @@ namespace Fut360.Controllers
         public async Task<IActionResult> Index()
         {
             return _context.AgendamentoModel != null ?
-                        View(await _context.AgendamentoModel.ToListAsync()) :
+                        View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
                         Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
         }
 
@@ -63,22 +64,22 @@ namespace Fut360.Controllers
         {
             var now = DateTime.Now;
 
-            if (agendamentoModel.HoraInicial <= now || agendamentoModel.HoraFinal <= now)
+            if (agendamentoModel.DataHoraInicial <= now || agendamentoModel.DataHoraFinal <= now)
             {
                 return BadRequest("Horario inicial/final não pode estar no passado.");
             }
 
-            if (agendamentoModel.HoraInicial >= agendamentoModel.HoraFinal)
+            if (agendamentoModel.DataHoraInicial >= agendamentoModel.DataHoraFinal)
             {
                 return BadRequest("Horario inicial deve ser menor que o horario final.");
             }
 
-            if (agendamentoModel.HoraInicial <= DateTime.Today.AddHours(6) || agendamentoModel.HoraFinal <= DateTime.Today.AddHours(6))
+            if (agendamentoModel.DataHoraInicial <= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(6) || agendamentoModel.DataHoraFinal <= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(6))
             {
                 return BadRequest("Agendamentos são permitidos apenas depois das 6 da manhã.");
             }
 
-            if (agendamentoModel.HoraInicial >= DateTime.Today.AddHours(23) || agendamentoModel.HoraFinal >= DateTime.Today.AddHours(23))
+            if (agendamentoModel.DataHoraInicial >= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(23) || agendamentoModel.DataHoraFinal >= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(23))
             {
                 return BadRequest("Agendamentos são permitidos apenas antes das 11 da noite.");
             }
@@ -87,9 +88,10 @@ namespace Fut360.Controllers
 
             foreach (var agendamento in agendamentos)
             {
-                if (agendamentoModel.HoraInicial >= agendamento.HoraInicial && agendamentoModel.HoraInicial <= agendamento.HoraFinal)
+                if (agendamentoModel.DataHoraInicial >= agendamento.DataHoraInicial && agendamentoModel.DataHoraInicial <= agendamento.DataHoraFinal ||
+                     agendamentoModel.DataHoraFinal >= agendamento.DataHoraInicial && agendamentoModel.DataHoraFinal <= agendamento.DataHoraFinal)
                 {
-                    return BadRequest($"Já existe um agendamento nesse horário: {agendamento.HoraInicial} - {agendamento.HoraFinal} que conflita com o agendamento pedido, favor escolher outro horário.");
+                    return BadRequest($"Já existe um agendamento nesse horário: {agendamento.DataHoraInicial} - {agendamento.DataHoraFinal} que conflita com o agendamento pedido, favor escolher outro horário.");
                 }
             }
 
