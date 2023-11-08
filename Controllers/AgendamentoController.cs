@@ -16,7 +16,7 @@ namespace Fut360.Controllers
 {
     public class AgendamentoController : Controller
     {
-  
+
         private readonly Contexto _context;
 
         public AgendamentoController(Contexto context)
@@ -27,9 +27,9 @@ namespace Fut360.Controllers
         // GET: Agendamento
         public async Task<IActionResult> Index()
         {
-              return _context.AgendamentoModel != null ? 
-                          View(await _context.AgendamentoModel.ToListAsync()) :
-                          Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+            return _context.AgendamentoModel != null ?
+                        View(await _context.AgendamentoModel.ToListAsync()) :
+                        Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
         }
 
         // GET: Agendamento/Details/5
@@ -61,25 +61,49 @@ namespace Fut360.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AgendamentoModel agendamentoModel)
         {
-            
-            //var datalocal = _context.Local.FindAsync(agendamentoModel.localModel.Id);
-            //if (agendamentoModel.Data.Equals(datalocal))
-            //{ 
-            //}
+            var now = DateTime.Now;
+
+            if (agendamentoModel.HoraInicial <= now || agendamentoModel.HoraFinal <= now)
+            {
+                return BadRequest("Horario inicial/final não pode estar no passado.");
+            }
+
+            if (agendamentoModel.HoraInicial >= agendamentoModel.HoraFinal)
+            {
+                return BadRequest("Horario inicial deve ser menor que o horario final.");
+            }
+
+            if (agendamentoModel.HoraInicial <= DateTime.Today.AddHours(6) || agendamentoModel.HoraFinal <= DateTime.Today.AddHours(6))
+            {
+                return BadRequest("Agendamentos são permitidos apenas depois das 6 da manhã.");
+            }
+
+            if (agendamentoModel.HoraInicial >= DateTime.Today.AddHours(23) || agendamentoModel.HoraFinal >= DateTime.Today.AddHours(23))
+            {
+                return BadRequest("Agendamentos são permitidos apenas antes das 11 da noite.");
+            }
+
+            var agendamentos = _context.AgendamentoModel.Where(a => a.localModel.Id == agendamentoModel.Id);
+
+            foreach (var agendamento in agendamentos)
+            {
+                if (agendamentoModel.HoraInicial >= agendamento.HoraInicial && agendamentoModel.HoraInicial <= agendamento.HoraFinal)
+                {
+                    return BadRequest($"Já existe um agendamento nesse horário: {agendamento.HoraInicial} - {agendamento.HoraFinal} que conflita com o agendamento pedido, favor escolher outro horário.");
+                }
+            }
 
             //pega ID do usuario logado
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            agendamentoModel.userModel = await _context.FindAsync<IdentityUser>(userId);
+            agendamentoModel.userModel = await _context.FindAsync<IdentityUser>(userId) ?? new();
             //pega o Id do local
-            agendamentoModel.localModel = _context.Find<LocalModel>(agendamentoModel.Id);
+            agendamentoModel.localModel = await _context.FindAsync<LocalModel>(agendamentoModel.Id) ?? new();
             agendamentoModel.Id = 0;
             agendamentoModel.Aprovado = false;
 
-          
-                _context.Add(agendamentoModel);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-
+            _context.Add(agendamentoModel);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Agendamento/Edit/5
@@ -165,14 +189,14 @@ namespace Fut360.Controllers
             {
                 _context.AgendamentoModel.Remove(agendamentoModel);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AgendamentoModelExists(int id)
         {
-          return (_context.AgendamentoModel?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.AgendamentoModel?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
