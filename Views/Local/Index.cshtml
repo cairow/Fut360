@@ -10,48 +10,39 @@
         <a class="btn btn-primary" role="button" asp-controller="Local" asp-action="Create">Adicionar Local</a>
     </div>
  
-</br>
- 
-        @if (Model != null && Model.Any())
-        {
-            foreach (LocalModel local in Model)
+    </br>
+  
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+            @if (Model != null && Model.Any())
             {
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="~/fotos/@local.ImagemLocal" class="d-block w-100" alt="Imagem do Local">
+                @foreach (LocalModel local in Model)
+                {
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="~/fotos/@local.ImagemLocal" class="d-block w-100" alt="..."> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@local.Nome</h5>
+                                <p class="card-text">@local.Endereco</p>
+                                <a role="button" class="btn btn-primary" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Agendar</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">@local.Nome</h5>
-                    </div>
-                    <div class="card-body">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">@local.Endereco</li>
-                            <li class="list-group-item">@local.Horario</li>
-                            <li class="list-group-item">@local.Pagamento</li>
-                        </ul>
-                    </div>
-                    <div class="card-body">
-                        <a role="button" class="btn btn-primary" asp-route-id="@local.Id" asp-controller="Agendamento"
-                           asp-action="Create">Reservar</a>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>                
+                }
             }
-        }
-      
-     
-
- </div>   
-
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+               
 
     </br>
     </br>
@@ -81,9 +72,6 @@
                         <td>@local.Pagamento</td>
                         <td>
                             <div class="btn-group" role="group">
-                                <a role="button" class="btn btn-primary" asp-route-id="@local.Id" asp-controller="Local"
-                                    asp-action="Edit">Editar</a>
-                                <a role="button" class="btn btn-danger" asp-route-id="@local.Id" asp-action="Delete">Excluir</a>
                                 <a role="button" class="btn btn-info" asp-route-id="@local.Id" asp-controller="Agendamento"
                                     asp-action="Create">Agendar</a>
                             </div>

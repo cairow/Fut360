@@ -28,11 +28,13 @@ namespace Fut360.Controllers
         // GET: Agendamento
         public async Task<IActionResult> Index()
         {
+            //pega ID do usuario logado
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
 
-            return _context.AgendamentoModel != null ?
-                        View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
-                        Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+                return _context.AgendamentoModel != null ?
+                            View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
+                            Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
         }
 
         // GET: Agendamento/Details/5
@@ -100,6 +102,7 @@ namespace Fut360.Controllers
             //pega ID do usuario logado
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             agendamentoModel.userModel = await _context.FindAsync<IdentityUser>(userId) ?? new();
+
             //pega o Id do local
             agendamentoModel.localModel = await _context.FindAsync<LocalModel>(agendamentoModel.Id) ?? new();
             agendamentoModel.Id = 0;

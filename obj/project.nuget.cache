@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "khT9jicSWUleQTdr6PJaTOfewfpBFRO72yH05/ueBxCwm6XQ7gQNH4PvePuGplLn/UtfWcv1A4ikkNCn8iUxoQ==",
+  "dgSpecHash": "6GQBbjzJTtVKn9GYfPRVysPDKTf4vkmYyABBQERXgt7T9qpUWFadhSEbp52ZcJxBaLU1YLFn4WAIfUymA6lO6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cairogomes\\Source\\Repos\\Fut360\\Fut360.csproj",
+  "projectFilePath": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\Fut360.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cairogomes\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\cairogomes\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
