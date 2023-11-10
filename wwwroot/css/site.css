@@ -42,6 +42,7 @@ body {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    background-color: aliceblue;
 }
 .login-container-img {
     text-align: center;
@@ -139,4 +140,11 @@ footer {
     .card .img-wrapper {
         height: 17em;
     }
+}
+
+.a {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px; /* Espaçamento interno, ajuste conforme necessário */
 }

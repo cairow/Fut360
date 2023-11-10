@@ -4,7 +4,13 @@ namespace Fut360.Models
 {
     public class RegisterViewModel
     {
-        public string Nome { get; set; }        
+        [Required]
+        public string Nome { get; set; }  
+        
+        //[Required]
+        //[Phone]
+        //[Display(Name = "Insira seu telefone de contato")]
+        //public string Contato { get; set; }
 
         [Required]
         [EmailAddress]

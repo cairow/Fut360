@@ -1,4 +1,5 @@
-﻿using Fut360.Models;
+﻿using Fut360.Data;
+using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +12,13 @@ namespace Fut360.Controllers
         private readonly UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        private readonly Contexto _context;
+
+        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, Contexto context)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
+            _context = context;
         }
 
         [HttpGet]
@@ -31,7 +35,7 @@ namespace Fut360.Controllers
                 var user = new IdentityUser
                 {
                     UserName = model.Email,
-                    Email = model.Email
+                    Email = model.Email,
                 };
 
                 // Armazena os dados do usuário na tabela AspNetUsers

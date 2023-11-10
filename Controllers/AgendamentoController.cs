@@ -26,15 +26,28 @@ namespace Fut360.Controllers
         }
 
         // GET: Agendamento
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(AgendamentoModel agendamentoModel)
         {
             //pega ID do usuario logado
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
+            //pega o Id do local
+            agendamentoModel.localModel = await _context.FindAsync<LocalModel>(agendamentoModel.Id) ?? new();
 
-                return _context.AgendamentoModel != null ?
-                            View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
-                            Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+            // Filtra os agendamentos pelo ID do usuário
+            var agendamentosDoUsuario = await _context.AgendamentoModel
+                .Where(a => a.userModel.Id == userId)
+                .Include(a => a.localModel)
+                .ToListAsync();
+
+            return agendamentosDoUsuario != null ?
+                View(agendamentosDoUsuario) :
+                Problem("Entity set 'Contexto.AgendamentoModel' is null.");
+
+
+            //return _context.AgendamentoModel != null ?
+            //                View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
+            //                Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
         }
 
         // GET: Agendamento/Details/5

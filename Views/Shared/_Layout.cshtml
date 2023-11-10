@@ -15,17 +15,19 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <a class="navbar-brand" asp-area="" asp-controller="Local" asp-action="Index"><img src="~/images/fut360logo.png" width="60" height="30" /></a>
-                        <partial name="_LoginAdmin.cshtml" />
+                        <img src="~/images/fut360logo.png" width="60" height="30"/>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" asp-area="" asp-controller="Local" asp-action="Index">Locais</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Agendamento" asp-action="Index">Meus Agendamentos</a>
+                            <a class="nav-link" asp-area="" asp-controller="Agendamento" asp-action="Index">Agendamentos</a>
                         </li>
-                        
                     </ul>
-                    <partial name="_LoginPartial.cshtml" display:flex />
+                    <partial name="_LoginAdmin.cshtml" />
+                    <div class="sair col-12">
+                       
+                        <partial name="_LoginPartial.cshtml" display:flex />
+                    </div>
                 </div>
 
 
