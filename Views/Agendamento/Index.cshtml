@@ -4,14 +4,14 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Meus Agendamentos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-controller="Local" asp-action="Index">Ir para Locais</a>
 </p>
+</br></br><hr/>
 
-
-<table class="table">
+<table class="table" id="table-locais">
     <thead>
         <tr>
             <th>

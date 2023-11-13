@@ -1,343 +1,371 @@
 {
   "Files": [
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Fut360.bundle.scp.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Fut360.bundle.scp.css",
       "PackagePath": "staticwebassets\\Fut360.bundle.scp.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\01e26087-8af5-4080-9ad3-96c1f066fc1a_q1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\01e26087-8af5-4080-9ad3-96c1f066fc1a_q1.jpg",
       "PackagePath": "staticwebassets\\fotos\\01e26087-8af5-4080-9ad3-96c1f066fc1a_q1.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\19f14563-ca81-47f1-ae45-74fba916075f_q1.jpeg",
+      "PackagePath": "staticwebassets\\fotos\\19f14563-ca81-47f1-ae45-74fba916075f_q1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\1d8d0ad4-33a4-40bd-bf5e-ed8c3f6d8e4a_q3.jpeg",
+      "PackagePath": "staticwebassets\\fotos\\1d8d0ad4-33a4-40bd-bf5e-ed8c3f6d8e4a_q3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\2f2ae5ac-d91c-4c07-923d-c650feba1adf_sesclogo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\2f2ae5ac-d91c-4c07-923d-c650feba1adf_sesclogo.png",
       "PackagePath": "staticwebassets\\fotos\\2f2ae5ac-d91c-4c07-923d-c650feba1adf_sesclogo.png"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\31a2ddd5-8f1b-435e-9cfd-6a588fa0c5f0_q2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\31a2ddd5-8f1b-435e-9cfd-6a588fa0c5f0_q2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\31a2ddd5-8f1b-435e-9cfd-6a588fa0c5f0_q2.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\3420331a-497e-451a-9efc-ad169d490824_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\3420331a-497e-451a-9efc-ad169d490824_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\3420331a-497e-451a-9efc-ad169d490824_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\37fc1cfd-ef40-4373-bd4b-70e327c9ba20_sesclogo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\37fc1cfd-ef40-4373-bd4b-70e327c9ba20_sesclogo.png",
       "PackagePath": "staticwebassets\\fotos\\37fc1cfd-ef40-4373-bd4b-70e327c9ba20_sesclogo.png"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\3a709326-c420-44c0-af5a-7e91efc43197_FB_IMG_1692643748962.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\3a709326-c420-44c0-af5a-7e91efc43197_FB_IMG_1692643748962.jpg",
       "PackagePath": "staticwebassets\\fotos\\3a709326-c420-44c0-af5a-7e91efc43197_FB_IMG_1692643748962.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\3b68bf40-813f-4053-a5ee-f1a9d0c1a001_q4f.jpg",
+      "PackagePath": "staticwebassets\\fotos\\3b68bf40-813f-4053-a5ee-f1a9d0c1a001_q4f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\887439e3-5d63-4eff-a7b6-2afdc3d4c756_sesclogo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\887439e3-5d63-4eff-a7b6-2afdc3d4c756_sesclogo.png",
       "PackagePath": "staticwebassets\\fotos\\887439e3-5d63-4eff-a7b6-2afdc3d4c756_sesclogo.png"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\89989db6-6c59-4a7a-9551-4c936ec5a552_q1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\89989db6-6c59-4a7a-9551-4c936ec5a552_q1.jpg",
       "PackagePath": "staticwebassets\\fotos\\89989db6-6c59-4a7a-9551-4c936ec5a552_q1.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\90f3701b-5401-45cf-9b7b-9a43708b6707_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\90f3701b-5401-45cf-9b7b-9a43708b6707_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\90f3701b-5401-45cf-9b7b-9a43708b6707_download2.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\9806ecc9-dd0d-4854-818c-5d534793d25d_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\9806ecc9-dd0d-4854-818c-5d534793d25d_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\9806ecc9-dd0d-4854-818c-5d534793d25d_images.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\b9f5098f-f2c3-4b90-b744-339c1fc527cc_286.bmp",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\b9f5098f-f2c3-4b90-b744-339c1fc527cc_286.bmp",
       "PackagePath": "staticwebassets\\fotos\\b9f5098f-f2c3-4b90-b744-339c1fc527cc_286.bmp"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\e7fc5eb7-fa06-4680-b112-99155cd2973c_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\e3ee6612-b32a-4565-a018-737236eae1df_q3.jpeg",
+      "PackagePath": "staticwebassets\\fotos\\e3ee6612-b32a-4565-a018-737236eae1df_q3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\e7fc5eb7-fa06-4680-b112-99155cd2973c_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\e7fc5eb7-fa06-4680-b112-99155cd2973c_images.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png",
       "PackagePath": "staticwebassets\\fotos\\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\images\\admin.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\images\\admin.jpg",
       "PackagePath": "staticwebassets\\images\\admin.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\images\\fut360logo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\images\\bgfut.jpg",
+      "PackagePath": "staticwebassets\\images\\bgfut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\images\\fut360logo.png",
       "PackagePath": "staticwebassets\\images\\fut360logo.png"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\images\\fut_ind.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\images\\fut_ind.jpg",
       "PackagePath": "staticwebassets\\images\\fut_ind.jpg"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\js\\calendar.js",
+      "PackagePath": "staticwebassets\\js\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\DEV\\Repos\\fut1111\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

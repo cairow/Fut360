@@ -1,10 +1,4 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
-
-
-$(document).ready(function () {
+﻿$(document).ready(function () {
     getDataTable('#table-locais');
     getDataTable('#table-agendamento');
 });
@@ -53,6 +47,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
     var carousel = new bootstrap.Carousel(multipleCardCarousel, {
         interval: false,
     });
+
     var carouselWidth = $(".carousel-inner")[0].scrollWidth;
     var cardWidth = $(".carousel-item").width();
     var scrollPosition = 0;
@@ -74,6 +69,13 @@ if (window.matchMedia("(min-width: 768px)").matches) {
             );
         }
     });
-} else {
-    $(multipleCardCarousel).addClass("slide");
+
 }
+ else {
+    $(multipleCardCarousel).addClass("slide");
+ }
+
+
+
+ //CALENDAR
+

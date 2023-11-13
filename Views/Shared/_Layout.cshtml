@@ -6,14 +6,19 @@
     <title>@ViewData["Title"] - Fut 360</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Fut360.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
     <link href="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">~ Fut360 ~</a>
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">~ Fut360 ~</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,12 +29,24 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item ">
-                                <a class="nav-link active" asp-controller="Local" asp-action="Index">Locais</a>
+                            <li class="nav-item">
+                                <a class="nav-link active" asp-controller="Home" asp-action="Index">> Página Inicial</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link active" asp-controller="Agendamento" asp-action="Index">Agendamentos</a>
+                                <a class="nav-link active" asp-controller="Local" asp-action="Index">> Locais</a>
                             </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" asp-controller="Agendamento" asp-action="Index">> Meus Agendamentos</a>
+                            </li>
+                            </br>
+                            </br>
+                            </br>
+                            <form method="post" asp-controller="account" asp-action="logout">
+                                <button type="submit" style="width:auto" class="btn btn-primary">
+                                    Sair
+                                </button>
+
+                            </form>
                         </ul>
                     </div>
                 </div>
@@ -40,22 +57,23 @@
     <div class="container">
         <main role="main" class="pb-3">
             </br>
-            </br>
-            </br>
-            </br>
+            
             @RenderBody()
         </main>
     </div>
 
     <footer class="bg-dark">
         <div class="container">
-            &copy; 2023 - Fut360 | Contato: fut360@gmail.com
+            &copy; 2023 - Fut360 | Contato: fut360br@gmail.com
         </div>
     </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/calendar.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
