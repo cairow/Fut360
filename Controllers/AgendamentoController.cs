@@ -15,6 +15,7 @@ using Humanizer;
 
 namespace Fut360.Controllers
 {
+    [Produces("application/json")]
     public class AgendamentoController : Controller
     {
 
@@ -48,6 +49,14 @@ namespace Fut360.Controllers
             //return _context.AgendamentoModel != null ?
             //                View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
             //                Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<AgendamentoModel>>> GetEvents([FromQuery] DateTime HoraInicial, [FromQuery] DateTime HoraFinal)
+        {
+            return await _context.AgendamentoModel
+                .Where(e => !((e.DataHoraFinal <= HoraInicial) || (e.DataHoraInicial >= HoraFinal)))
+                .ToListAsync();
         }
 
         // GET: Agendamento/Details/5

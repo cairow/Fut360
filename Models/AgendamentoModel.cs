@@ -10,6 +10,5 @@ namespace Fut360.Models
         public LocalModel localModel { get; set; }
         public IdentityUser userModel { get; set; }
         public bool Aprovado { get; set; }
-
     }
 }
