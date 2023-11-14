@@ -9,7 +9,7 @@ namespace Fut360.Data
         public Contexto(DbContextOptions<Contexto> options) : base(options)
         {
         }
-        public DbSet<LocalModel> Local { get; set; }
+        public DbSet<LocalModel> LocalModel { get; set; }
         public DbSet<AgendamentoModel> AgendamentoModel { get; set; }
 
     }

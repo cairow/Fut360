@@ -7,7 +7,8 @@ html {
     text-transform: fullsize-kana;
 }
 .img-home {
-
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 1200px;
     height: 860px;
 }

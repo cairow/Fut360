@@ -83,7 +83,7 @@ namespace Fut360.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Local");
+                    b.ToTable("LocalModel");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

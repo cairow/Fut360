@@ -80,6 +80,9 @@ namespace Fut360.Controllers
         // GET: Agendamento/Create
         public IActionResult Create()
         {
+
+
+
             return View();
         }
 

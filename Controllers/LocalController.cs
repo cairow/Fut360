@@ -28,8 +28,8 @@ namespace Fut360.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-            return _context.Local != null ?
-                        View(await _context.Local.ToListAsync()) :
+            return _context.LocalModel != null ?
+                        View(await _context.LocalModel.ToListAsync()) :
                         Problem("Entity set 'Contexto.local'  is null.");
         }
 
@@ -38,12 +38,12 @@ namespace Fut360.Controllers
         [Authorize(Policy = "RequireUserAdminAprovadorRole")]
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Local == null)
+            if (id == null || _context.LocalModel == null)
             {
                 return NotFound();
             }
 
-            var localModel = await _context.Local
+            var localModel = await _context.LocalModel
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (localModel == null)
             {
@@ -103,12 +103,12 @@ namespace Fut360.Controllers
         // GET: Local/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Local == null)
+            if (id == null || _context.LocalModel == null)
             {
                 return NotFound();
             }
 
-            var localModel = await _context.Local.FindAsync(id);
+            var localModel = await _context.LocalModel.FindAsync(id);
             if (localModel == null)
             {
                 return NotFound();
@@ -156,12 +156,12 @@ namespace Fut360.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Local == null)
+            if (id == null || _context.LocalModel == null)
             {
                 return NotFound();
             }
 
-            var localModel = await _context.Local
+            var localModel = await _context.LocalModel
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (localModel == null)
             {
@@ -177,14 +177,14 @@ namespace Fut360.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Local == null)
+            if (_context.LocalModel == null)
             {
                 return Problem("Entity set 'Contexto.Local'  is null.");
             }
-            var localModel = await _context.Local.FindAsync(id);
+            var localModel = await _context.LocalModel.FindAsync(id);
             if (localModel != null)
             {
-                _context.Local.Remove(localModel);
+                _context.LocalModel.Remove(localModel);
             }
 
             await _context.SaveChangesAsync();
@@ -193,7 +193,7 @@ namespace Fut360.Controllers
 
         private bool LocalModelExists(int id)
         {
-            return (_context.Local?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.LocalModel?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

@@ -36,7 +36,10 @@
                                 <a class="nav-link active" asp-controller="Local" asp-action="Index">> Locais</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link active" asp-controller="Agendamento" asp-action="Index">> Meus Agendamentos</a>
+                                <a class="nav-link active" asp-controller="Agendamento" asp-action="Index">> Meus Agendamentos</a>
+                            </li>
+                            <li>
+                                <partial name="_LoginAdmin.cshtml" class="nav-link active"/>
                             </li>
                             </br>
                             </br>
@@ -55,9 +58,7 @@
     </header>
     
     <div class="container">
-        <main role="main" class="pb-3">
-            </br>
-            
+        <main role="main" class="">
             @RenderBody()
         </main>
     </div>
