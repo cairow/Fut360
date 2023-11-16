@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cairogomes\\source\\repos\\Fut360\\Fut360.csproj": {}
+    "D:\\DEV\\Repos\\fut1611\\Fut360.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cairogomes\\source\\repos\\Fut360\\Fut360.csproj": {
+    "D:\\DEV\\Repos\\fut1611\\Fut360.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\Fut360.csproj",
+        "projectUniqueName": "D:\\DEV\\Repos\\fut1611\\Fut360.csproj",
         "projectName": "Fut360",
-        "projectPath": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\Fut360.csproj",
-        "packagesPath": "C:\\Users\\cairogomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cairogomes\\source\\repos\\Fut360\\obj\\",
+        "projectPath": "D:\\DEV\\Repos\\fut1611\\Fut360.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\DEV\\Repos\\fut1611\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cairogomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

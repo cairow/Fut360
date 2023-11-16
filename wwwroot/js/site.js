@@ -3,7 +3,7 @@
     getDataTable('#table-agendamento');
 });
 
-function getDataTable(id){
+function getDataTable(id) {
     $(id).DataTable({
         "ordering": true,
         "paging": true,
@@ -40,14 +40,11 @@ $('.close-alert').click(function () {
 
 
 
-var multipleCardCarousel = document.querySelector(
-    "#carouselExampleControls"
-);
+var multipleCardCarousel = document.querySelector("#carouselExampleControls");
 if (window.matchMedia("(min-width: 768px)").matches) {
     var carousel = new bootstrap.Carousel(multipleCardCarousel, {
         interval: false,
     });
-
     var carouselWidth = $(".carousel-inner")[0].scrollWidth;
     var cardWidth = $(".carousel-item").width();
     var scrollPosition = 0;
@@ -69,13 +66,8 @@ if (window.matchMedia("(min-width: 768px)").matches) {
             );
         }
     });
-
 }
- else {
+
+else {
     $(multipleCardCarousel).addClass("slide");
- }
-
-
-
- //CALENDAR
-
+}

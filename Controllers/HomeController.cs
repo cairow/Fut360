@@ -1,19 +1,41 @@
 ﻿using System.Diagnostics;
+using Fut360.Data;
 using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Fut360.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly Contexto _context;
+
+
+        public HomeController(Contexto context)
+        {
+            _context = context;
+  
+        }
+
+        // GET: Local
+        public async Task<IActionResult> Index()
         {
             HomeModel home = new HomeModel();
+            LocalModel locais = new LocalModel();
 
-            return View(home);
-            
+            HomeModel viewModel = new HomeModel
+            {
+                Home = home,
+                Local = locais
+            };
+
+            return _context.LocalModel != null ?
+                        View(await _context.LocalModel.ToListAsync()) :
+                        Problem("Entity set 'Contexto.local'  is null.");
         }
+
+
 
         public IActionResult Privacy()
         {
