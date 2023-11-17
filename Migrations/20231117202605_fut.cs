@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Fut360.Migrations
 {
     /// <inheritdoc />
-    public partial class layout : Migration
+    public partial class fut : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -71,8 +71,8 @@ namespace Fut360.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Horario = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Pagamento = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Maplink = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Contato = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImagemLocal = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>

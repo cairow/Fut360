@@ -3,125 +3,28 @@
 @{
     ViewData["Title"] = "Locais Disponíveis";
 }
-
 <div class="text-center">
-
-    <div class="mx-auto p-2">
-        <a class="btn btn-primary" role="button" asp-controller="Local" asp-action="Create">Adicionar Local</a>
-    </div>
- 
-    </br>
-
-
-    <div class="row mt-4">
-        <div class="col-lg-7 mb-lg-0 mb-4">
-            <div class="card z-index-2 h-100">
-                <div class="card-header pb-0 pt-3 bg-transparent">
-                    <h6 class="text-capitalize">Sales overview</h6>
-                    <p class="text-sm mb-0">
-                        <i class="fa fa-arrow-up text-success"></i>
-                        <span class="font-weight-bold">4% more</span> in 2021
-                    </p>
-                </div>
-                <div class="card-body p-3">
-                    <div class="chart">
-                        <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-5">
-            <div class="card card-carousel overflow-hidden h-100 p-0">
-                <div id="carouselExampleCaptions" class="carousel slide h-100" data-bs-ride="carousel">
-                    @if (Model != null && Model.Any())
-                    {
-                        @foreach (LocalModel local in Model)
-                        {
-                            <div class="carousel-inner border-radius-lg h-100">
-
-                                <div class="carousel-item h-100 active" style="background-image: '~/fotos/@local.ImagemLocal'); background-size: cover;">
-                                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
-                                        <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
-                                            <i class="ni ni-camera-compact text-dark opacity-10"></i>
-                                        </div>
-                                        <h5 class="text-white mb-1">Get started with Argon</h5>
-                                        <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        }
-
-                    }
-                    <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-            @if (Model != null && Model.Any())
-            {
-                @foreach (LocalModel local in Model)
-                {
-                    <div class="carousel-item active">
-                        <div class="card">
-                            <div class="ratio ratio-1x1"><img src="~/fotos/@local.ImagemLocal" class="d-block w-100" alt="..."> </div>
-                            <div class="card-body">
-                                <h5 class="card-title">@local.Nome</h5>
-                                <p class="card-text">@local.Endereco</p>
-                                <a role="button" class="btn btn-primary" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Agendar</a>
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
-              
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-         </div>
-               
-
-    </br>
-    </br>
-
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-12">
                 <div class="card mb-4">
                     <div class="card-header pb-0">
-                        <h6>Lista de Locais</h6>
+                        <div class="d-flex align-items-center">
+                            <p class="mb-0 text-uppercase">Lista de Locais</p>
+                            <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="Local" asp-action="Create">Adicionar</a>
+                        </div>
+                      
                     </div>
+                    </br></br>
                     <div class="card-body px-0 pt-0 pb-2">
                         <div class="table-responsive p-0">
-
                         <table class="table align-items-center mb-0" id="table-locais">
                         <thead>
                             <tr>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Endereço</th>
-                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Horários</th>
-                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tipo de Pagamentos</th>
+                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Localização</th>
+                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contato</th>
                                 <th class="text-secondary opacity-7"></th>
                             </tr>
                         </thead>
@@ -137,8 +40,12 @@
                                         <td>
                                             <p class="text-xs font-weight-bold mb-0">@local.Endereco</p>
                                         </td>
-                                        <td>@local.Horario</td>
-                                        <td>@local.Pagamento</td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@local.Maplink</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@local.Contato</p>
+                                        </td>
                                         <td class="align-middle text-center text-sm">
                                             <div class="btn-group" role="group">
                                                  <a role="button" class="badge badge-sm bg-gradient-success" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Agendar</a>
@@ -149,9 +56,10 @@
                             }
                         </tbody>
                     </table>
-</div>
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

@@ -4,47 +4,61 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Meus Agendamentos</h1>
+<div class="text-center">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-header pb-0">
+                        <div class="d-flex align-items-center">
+                            <p class="mb-0 text-uppercase">Meus Agendamentos</p>
+                            <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="Local" asp-action="Create">Adicionar</a>
+                        </div>
 
-<p>
-    <a asp-controller="Local" asp-action="Index">Ir para Locais</a>
-</p>
-</br></br><hr/>
-
-<table class="table" id="table-locais">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.localModel.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataHoraInicial)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataHoraFinal)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.localModel.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataHoraInicial)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataHoraFinal)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-
+                    </div>
+                    </br></br>
+                    <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                            <table class="table" id="table-locais">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.localModel.Nome)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.DataHoraInicial)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.DataHoraFinal)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                            @foreach (var item in Model) {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.localModel.Nome)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DataHoraInicial)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DataHoraFinal)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                            }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

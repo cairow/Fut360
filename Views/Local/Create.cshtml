@@ -4,54 +4,66 @@
     ViewData["Title"] = "Cadastro de Local";
 }
 
-<div class="text-center">
-    <br />
-    <h3 class="font-weight-bolder text-white mb-0" style="text-align: left;">Cadastrar Local</h3>
-
-</div>
-
-
-        
-    <div class="card z-index-2 h-100">
-
-            <form asp-controller="Local" asp-action="Create" method="post" enctype="multipart/form-data" style="padding: 30px;">
-
-            <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome">
-                @Html.ValidationMessageFor(x => x.Nome)
+<div class="text-center py-4">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                 <div class="card mb-4">
+                    <form asp-controller="Local" asp-action="Create" method="post" enctype="multipart/form-data" style="padding: 30px;">
+                        <div class="card-header pb-0">
+                            <div class="d-flex align-items-center">
+                                <p class="mb-0 text-uppercase">CADASTRO DE LOCAL</p>
+                                 <button type="submit" class="btn btn-primary btn-sm ms-auto">Salvar</button>
+                            </div>
+                        </div>
+                         <div class="card-body px- pt-0 pb-2">
+                            <p class="text-sm">Informações:</p>
+                                <div class="row">
+                                    <div class="col-md-6 mb-0">
+                                        <div class="form-group">
+                                            <label for="Nome" class="form-control-label">Nome</label>
+                                            <input class="form-control" asp-for="Nome" placeholder="Digite o nome" type="text">
+                                            @Html.ValidationMessageFor(x => x.Nome)
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="Endereco" class="form-control-label">Endereço</label>
+                                            <input class="form-control" asp-for="Endereco" placeholder="Digite o Endereço completo" type="text">
+                                            @Html.ValidationMessageFor(x => x.Endereco)
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="Maplink" class="form-control-label">Google Maps Link</label>
+                                            <input class="form-control" asp-for="Maplink" placeholder="Cole o link direto para o Google maps" type="text">
+                                            @Html.ValidationMessageFor(x => x.Maplink)
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="Contato" class="form-control-label">Contato</label>
+                                            <input class="form-control" asp-for="Contato" placeholder="Digite um telefone para contato" type="text">
+                                            @Html.ValidationMessageFor(x => x.Contato)
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="ImagemLocal" class="form-control-label">Foto</label>
+                                        <input class="form-control" asp-for="ImagemLocal" type="file" placeholder="Insira uma imagem: ">
+                                            @Html.ValidationMessageFor(x => x.ImagemLocal)
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="email">Endereço</label>
-                <input type="text" asp-for="Endereco" class="form-control" placeholder="Digite o Endereço Completo">
-                @Html.ValidationMessageFor(x => x.Endereco)
-            </div>
-            <div class="form-group">
-                <label for="contato">Horario</label>
-                <input type="text" asp-for="Horario" class="form-control"
-                       placeholder="Qual os horários disponíveis? EX: das 07h00 as 23h00">
-                @Html.ValidationMessageFor(x => x.Horario)
-            </div>
-            <div class="form-group">
-                <label for="contato">Forma de Pagamento</label>
-                <input type="text" asp-for="Pagamento" class="form-control" placeholder="Insira a forma de pagamento: ">
-                @Html.ValidationMessageFor(x => x.Pagamento)
-            </div>
-            <div class="form-group">
-                <label for="imagem">Forma de Pagamento</label>
-                <input type="file" asp-for="ImagemLocal" class="form-control" placeholder="Insira uma imagem: ">
-                @Html.ValidationMessageFor(x => x.ImagemLocal)
-            </div>
-
-            </br>
-
-            <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
-            <a class="btn btn-secondary btn-block" asp-controller="Local" asp-action="Index" role="button">Voltar</a>
-        </form>
-
-
+        </div>
     </div>
 </div>
+
 
 
 
