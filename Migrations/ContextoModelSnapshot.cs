@@ -54,6 +54,22 @@ namespace Fut360.Migrations
                     b.ToTable("AgendamentoModel");
                 });
 
+            modelBuilder.Entity("Fut360.Models.HorarioModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Horarios");
+                });
+
             modelBuilder.Entity("Fut360.Models.LocalModel", b =>
                 {
                     b.Property<int>("Id")

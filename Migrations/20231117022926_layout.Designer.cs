@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fut360.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20231116230204_fut")]
-    partial class fut
+    [Migration("20231117022926_layout")]
+    partial class layout
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,22 @@ namespace Fut360.Migrations
                     b.HasIndex("userModelId");
 
                     b.ToTable("AgendamentoModel");
+                });
+
+            modelBuilder.Entity("Fut360.Models.HorarioModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Horarios");
                 });
 
             modelBuilder.Entity("Fut360.Models.LocalModel", b =>

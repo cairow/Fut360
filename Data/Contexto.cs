@@ -11,6 +11,7 @@ namespace Fut360.Data
         }
         public DbSet<LocalModel> LocalModel { get; set; }
         public DbSet<AgendamentoModel> AgendamentoModel { get; set; }
+        public DbSet<HorarioModel> Horarios { get; set; }
 
     }
 }

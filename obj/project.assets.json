@@ -12085,11 +12085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEV\\Repos\\fut1611\\Fut360.csproj",
+      "projectUniqueName": "D:\\DEV\\Repos\\Fut Novo Layout\\Fut360.csproj",
       "projectName": "Fut360",
-      "projectPath": "D:\\DEV\\Repos\\fut1611\\Fut360.csproj",
+      "projectPath": "D:\\DEV\\Repos\\Fut Novo Layout\\Fut360.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\DEV\\Repos\\fut1611\\obj\\",
+      "outputPath": "D:\\DEV\\Repos\\Fut Novo Layout\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
