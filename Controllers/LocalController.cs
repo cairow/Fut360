@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Fut360.Data;
 using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 
 namespace Fut360.Controllers
 {
@@ -18,18 +20,25 @@ namespace Fut360.Controllers
 
         private readonly string caminhoServidor;
 
-        public LocalController(Contexto context, IWebHostEnvironment sistema)
+        private readonly UserManager<IdentityUser> _userManager;
+
+
+        public LocalController(Contexto context, IWebHostEnvironment sistema, UserManager<IdentityUser> userManager)
         {
             _context = context;
             caminhoServidor = sistema.WebRootPath;
+            _userManager = userManager;
+
         }
 
         // GET: Local
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
+      
+
             return _context.LocalModel != null ?
-                        View(await _context.LocalModel.ToListAsync()) :
+                        View(await _context.LocalModel.ToListAsync()) : 
                         Problem("Entity set 'Contexto.local'  is null.");
         }
 
@@ -56,8 +65,12 @@ namespace Fut360.Controllers
         // GET: Local/Create
         //[Authorize(Roles = "User, Admin, Aprovador")]
         [Authorize(Policy = "RequireUserAdminAprovadorRole")]
-        public IActionResult Create()
-        {
+        public async Task<IActionResult> Create()
+        { 
+            List<IdentityUser> usuarios = await _userManager.Users.ToListAsync();
+
+            ViewData["usuarios"] = usuarios;
+
             return View();
         }
 
@@ -89,6 +102,10 @@ namespace Fut360.Controllers
 
                     localModel.ImagemLocal = novoNomeParaImagem;
                 }
+
+                var usuario = ModelState.SelectedValue<usuario>("Aprovador");
+            
+
 
                 _context.Add(localModel);
                 await _context.SaveChangesAsync();

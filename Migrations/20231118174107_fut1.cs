@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Fut360.Migrations
 {
     /// <inheritdoc />
-    public partial class fut : Migration
+    public partial class fut1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -61,23 +61,6 @@ namespace Fut360.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Horarios", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "LocalModel",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Maplink = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Contato = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ImagemLocal = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_LocalModel", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -187,6 +170,29 @@ namespace Fut360.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "LocalModel",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Maplink = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Contato = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImagemLocal = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    AprovadorId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LocalModel", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_LocalModel_AspNetUsers_AprovadorId",
+                        column: x => x.AprovadorId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AgendamentoModel",
                 columns: table => new
                 {
@@ -262,6 +268,11 @@ namespace Fut360.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LocalModel_AprovadorId",
+                table: "LocalModel",
+                column: "AprovadorId");
         }
 
         /// <inheritdoc />

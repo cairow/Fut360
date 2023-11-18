@@ -3,78 +3,33 @@
 @{
     ViewData["Title"] = "Realizar um agendamento";
 }
+<div class="text-center">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="col-md-4 text-center">
+                        <form asp-controller="Agendamento" asp-action="Create" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-
-<div class="container-calendar">
-    <div class="left">
-        <div class="calendar">
-            <div class="month">
-                <i class="fas fa-angle-left prev"></i>
-                <div class="date">december 2015</div>
-                <i class="fas fa-angle-right next"></i>
-            </div>
-            <div class="weekdays">
-                <div>Dom</div>
-                <div>Seg</div>
-                <div>Ter</div>
-                <div>Qua</div>
-                <div>Qui</div>
-                <div>Sex</div>
-                <div>Sab</div>
-            </div>
-            <div class="days"></div>
-            <div class="goto-today">
-                
-                <button class="today-btn">Today</button>
-            </div>
-        </div>
-    </div>
-    <div class="right">
-        <div class="today-date">
-            <div class="event-day" hidden="true">Ter</div>
-            <div class="event-date">12th december 2022</div>
-        </div>
-        <div class="events"></div>
-       
-    </div>
-    
-</div>
-
-
-</br>
-</br>
-</br>
-
-<div class="row">
-    <div class="col-md-4 text-center">
-        <form asp-controller="Agendamento" asp-action="Create" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-            <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
+                            <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
            
-            <div class="form-group">
-                <label for="DataHoraInicial">Data e Horário de Início:</label>
-                <input type="datetime-local" class="form-control" id="DataHoraInicial" name="DataHoraInicial" />
+                            <div class="form-group">
+                                <label for="DataHoraInicial">Data e Horário de Início:</label>
+                                <input type="datetime-local" class="form-control" id="DataHoraInicial" name="DataHoraInicial" />
+                            </div>
+                            <div class="form-group">
+                                <label for="DataHoraFinal">Data e Horário de Término:</label>
+                                <input type="datetime-local" class="form-control" id="DataHoraFinal" name="DataHoraFinal" />
+                            </div>
+                            </br>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                 </div>
             </div>
-            <div class="form-group">
-                <label for="DataHoraFinal">Data e Horário de Término:</label>
-                <input type="datetime-local" class="form-control" id="DataHoraFinal" name="DataHoraFinal" />
-            </div>
-            </br>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-
+        </div>
     </div>
 </div>
-
-
-
-
-
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-

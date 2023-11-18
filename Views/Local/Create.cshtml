@@ -1,7 +1,9 @@
-﻿@model Fut360.Models.LocalModel
+﻿@using Microsoft.AspNetCore.Identity;
+@model Fut360.Models.LocalModel
 
 @{
     ViewData["Title"] = "Cadastro de Local";
+    List<IdentityUser> usuarios = ViewData["usuarios"] as List<IdentityUser>;
 }
 
 <div class="text-center py-4">
@@ -50,12 +52,25 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="ImagemLocal" class="form-control-label">Foto</label>
-                                        <input class="form-control" asp-for="ImagemLocal" type="file" placeholder="Insira uma imagem: ">
+                                            <input class="form-control" asp-for="ImagemLocal" type="file" placeholder="Insira uma imagem: ">
                                             @Html.ValidationMessageFor(x => x.ImagemLocal)
                                         </div>
                                     </div>
+                                     <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="Aprovador" class="form-control-label">Administrador do Local</label>
+                                        <select asp-for="Aprovador" class="form-control">
+                                            @foreach (var usuario in usuarios)
+                                                {
+                                                    <option value="@usuario.Id" >@usuario.NormalizedUserName</option>
+                                                }
+
+                                        </select>
+                                        @Html.ValidationMessageFor(x => x.Aprovador)
+
+                                    </div>
                                 </div>
-                                
+                                </div>
                         </div>
                     </form>
                 </div>

@@ -4880,6 +4880,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\524abd0a-1576-4524-a75d-4ba99819454f_images.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fut360</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fut360</BasePath>
+      <RelativePath>fotos/524abd0a-1576-4524-a75d-4ba99819454f_images.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\524abd0a-1576-4524-a75d-4ba99819454f_images.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\6d254dc1-1e1a-49d4-9c6e-6f0755d45025_WhatsApp Image 2023-11-13 at 16.24.42.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Fut360</SourceId>
@@ -5087,6 +5103,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\eae70451-1fd1-40e4-9173-d423d4dce222_maracanazinho-01-507766_507766.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fut360</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fut360</BasePath>
+      <RelativePath>fotos/eae70451-1fd1-40e4-9173-d423d4dce222_maracanazinho-01-507766_507766.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\eae70451-1fd1-40e4-9173-d423d4dce222_maracanazinho-01-507766_507766.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fotos\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png))">
       <SourceType>Package</SourceType>

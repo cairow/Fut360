@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fut360.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20231117202605_fut")]
-    partial class fut
+    [Migration("20231118174107_fut1")]
+    partial class fut1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,6 +81,9 @@ namespace Fut360.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AprovadorId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("Contato")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -101,6 +104,8 @@ namespace Fut360.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AprovadorId");
 
                     b.ToTable("LocalModel");
                 });
@@ -318,6 +323,15 @@ namespace Fut360.Migrations
                     b.Navigation("localModel");
 
                     b.Navigation("userModel");
+                });
+
+            modelBuilder.Entity("Fut360.Models.LocalModel", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Aprovador")
+                        .WithMany()
+                        .HasForeignKey("AprovadorId");
+
+                    b.Navigation("Aprovador");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
