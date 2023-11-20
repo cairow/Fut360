@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Admin";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+                    <div class="container">
+
+                        <a class="nav-link text-light" asp-controller="Admin" asp-action="Index">Admin</a>
+                        <a class="nav-link text-light" asp-controller="AdminRoles" asp-action="Index">Gerenciar Roles</a>
+                        <a class="nav-link text-light" asp-controller="AdminUsers" asp-action="Index">Gerenciar Usuários</a>
+
+                        <div class="navbar-collapse collapse d-sm-inline-flex">
+                        </div>
+                    </div>
+                </nav>
+                <div>
+                    <center><img width="250" height="250" src="~/images/admin.jpg" alt="Área de Administração" /></center>
+                </div>
+                <footer class="border-top footer text-muted">
+                    <div class="container">
+                        <p>&copy; 2023 - Fut360 -</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>

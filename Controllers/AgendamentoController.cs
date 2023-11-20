@@ -10,7 +10,7 @@ using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
-using MvcWebIdentity.Areas.Admin.Controllers;
+using Fut360.Controllers;
 using Humanizer;
 
 namespace Fut360.Controllers

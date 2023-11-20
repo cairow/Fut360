@@ -1,13 +1,12 @@
-﻿using Fut360.Areas.Admin.Models;
+﻿using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace Fut360.Areas.Admin.Controllers;
+namespace Fut360.Controllers;
 
-[Area("Admin")]
 [Authorize(Roles = "Admin")]
 public class AdminRolesController : Controller
 {

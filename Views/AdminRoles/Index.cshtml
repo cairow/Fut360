@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<IdentityRole>
+@{
+    ViewData["Title"] = "ROLES";
+}
+<div class="text-center">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-header pb-0">
+                        <div class="d-flex align-items-center">
+                            <p class="mb-0 text-uppercase">Roles</p>
+                        </div>
+                        <div>
+                            <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="AdminRoles" asp-action="Create" class="btn btn-sm btn-danger">Criar Role</a>
+                            <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="Admin" asp-action="Index" class="btn btn-sm btn-danger">Voltar</a>
+                        </div>
+                    </div>
+                    </br></br>
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <tr>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">ID</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome</th>
+                            </tr>
+                            @foreach (var role in Model)
+                            {
+                                <tr>
+                                    <td>@role.Id</td>
+                                    <td>@role.Name</td>
+                                    <td i-role="@role.Id"></td>
+                                    <td><a class="btn btn-sm btn-primary" asp-action="Update" asp-route-id="@role.Id">Editar</a></td>
+                                    <td>
+                                        <form asp-action="Delete" asp-route-id="@role.Id" method="get">
+                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                Deletar
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Fut360.Areas.Admin.Models;
+namespace Fut360.Models;
 
 public class RoleModification
 {

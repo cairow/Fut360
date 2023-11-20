@@ -66,13 +66,6 @@ await CriarPerfisUsuariosAsync(app);
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-      name: "MinhaArea",
-      pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
-    );
-});
 
 app.MapControllerRoute(
     name: "default",

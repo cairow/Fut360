@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Fut360.Areas.Admin.Models;
+namespace Fut360.Models;
 
 public class RoleEdit
 {

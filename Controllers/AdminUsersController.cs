@@ -2,9 +2,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MvcWebIdentity.Areas.Admin.Controllers;
+namespace Fut360.Controllers;
 
-[Area("Admin")]
 [Authorize(Roles = "Admin")]
 public class AdminUsersController : Controller
 {

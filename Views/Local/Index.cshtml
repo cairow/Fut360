@@ -3,111 +3,110 @@
 @{
     ViewData["Title"] = "Locais Disponíveis";
 }
-<div class="text-center">
+ <div class="text-center">
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-12">
-
-    <div class="col-lg-7 mb-lg-0 mb-4">
-        <div class="card z-index-2 h-100">
-            @if (Model != null && Model.Any())
-            {
-                foreach (LocalModel local in Model)
-                {
-                    <div class="card-body p-3">
-                        <div class="chart">
-                    <div class="lista-quadra card">
-                        <div class="img-quadra">
-                            <img src="@local.ImagemLocal" alt="">
-                        </div>
-                        <div class="list-conteudo">
-                            <h2>@local.Nome</h2>
-                            <p><i class="fa fa-bell"></i>@local.Endereco</p>
-                            <p><i class="fa fa-clock"></i>@local.Contato</p>
-                            <button class="btn btn-primary btn-sn ms-auto">Reservar</button>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                }
-            }
-        </div>
-                 <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-    </div>
-</div>
-
-
-
-<div class="text-center">
-    <div class="container-fluid py-4">
-        <div class="row">
-            <div class="col-12">
-                <div class="card mb-4">
-                    <div class="card-header pb-0">
-                        <div class="d-flex align-items-center">
-                            <p class="mb-0 text-uppercase">Lista de Locais</p>
-                            <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="Local" asp-action="Create">Adicionar</a>
-                        </div>
-                    </div>
-                    </br></br>
-                    <div class="card-body px-0 pt-0 pb-2">
-                        <div class="table-responsive p-0">
-                        <table class="table align-items-center mb-0" id="table-locais">
-                        <thead>
-                            <tr>
-                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome</th>
-                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Endereço</th>
-                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Localização</th>
-                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contato</th>
-                                <th class="text-secondary opacity-7"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @if (Model != null && Model.Any())
+                <div class="col-lg-7 mb-lg-0 mb-4">
+                    <div class="card z-index-2 h-100">
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (LocalModel local in Model)
                             {
-                                foreach (LocalModel local in Model)
-                                {
-                                    <tr>
-                                        <td>              
-                                            <h6 class="mb-0 text-sm">@local.Nome</h6>  
-                                        </td>
-                                        <td>
-                                            <p class="text-xs font-weight-bold mb-0">@local.Endereco</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs font-weight-bold mb-0">@local.Maplink</p>
-                                        </td>
-                                        <td>
-                                            <p class="text-xs font-weight-bold mb-0">@local.Contato</p>
-                                        </td>
-                                        <td class="align-middle text-center text-sm">
-                                            <div class="btn-group" role="group">
-                                                 <a role="button" class="badge badge-sm bg-gradient-success" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Agendar</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                }
+                                <div class="card-body p-3">
+                                    <div class="chart">
+                                <div class="lista-quadra card">
+                                    <div class="img-quadra">
+                                        <img src="@local.ImagemLocal" alt="">
+                                    </div>
+                                    <div class="list-conteudo">
+                                        <h2>@local.Nome</h2>
+                                        <p><i class="fa fa-bell"></i>@local.Endereco</p>
+                                        <p><i class="fa fa-clock"></i>@local.Contato</p>
+                                        <button class="btn btn-primary btn-sn ms-auto">Reservar</button>
+                                    </div>
+                                </div>
+                                    </div>
+                                </div>
                             }
-                        </tbody>
-                    </table>
+                        }
                     </div>
+                             <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+
+
+
+            <div class="text-center">
+                <div class="container-fluid py-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card mb-4">
+                                <div class="card-header pb-0">
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0 text-uppercase">Lista de Locais</p>
+                                        <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="Local" asp-action="Create">Adicionar</a>
+                                    </div>
+                                </div>
+                                </br></br>
+                                <div class="card-body px-0 pt-0 pb-2">
+                                    <div class="table-responsive p-0">
+                                    <table class="table align-items-center mb-0" id="table-locais">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome</th>
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Endereço</th>
+                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Localização</th>
+                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contato</th>
+                                            <th class="text-secondary opacity-7"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (Model != null && Model.Any())
+                                        {
+                                            foreach (LocalModel local in Model)
+                                            {
+                                                <tr>
+                                                    <td>              
+                                                        <h6 class="mb-0 text-sm">@local.Nome</h6>  
+                                                    </td>
+                                                    <td>
+                                                        <p class="text-xs font-weight-bold mb-0">@local.Endereco</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="text-xs font-weight-bold mb-0">@local.Maplink</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="text-xs font-weight-bold mb-0">@local.Contato</p>
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        <div class="btn-group" role="group">
+                                                                <a role="button" class="badge badge-sm bg-gradient-success" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Agendar</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-            </div>
-        </div>
-    </div>
-</div>
+ </div>
+
 
 <style>
 

@@ -6,12 +6,12 @@
 {
     @if (User.IsInRole("Admin"))
     {
-
-
-        <li class="nav-item d-flex align-items-center">
-            <a asp-area="Admin" asp-controller="Admin" asp-action="Index" class="nav-link text-white font-weight-bold px-0">
-                <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Admin</span>
+        <li class="nav-item">
+            <a class="nav-link active" asp-controller="Admin" asp-action="Index">
+                <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                    <i class="ni ni-collection text-info text-sm opacity-10"></i>
+                </div>
+                <span class="nav-link-text ms-1">Administrador</span>
             </a>
         </li>
 
