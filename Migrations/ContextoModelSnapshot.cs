@@ -185,7 +185,7 @@ namespace Fut360.Migrations
                         {
                             Id = 24,
                             Hora_fim = new TimeSpan(0, 0, 0, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 23, 0, 0, 0)
+                            Hora_inicio = new TimeSpan(0, 23, 30, 0, 0)
                         });
                 });
 

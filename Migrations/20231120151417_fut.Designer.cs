@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fut360.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20231120142151_HorarioModelChanging")]
-    partial class HorarioModelChanging
+    [Migration("20231120151417_fut")]
+    partial class fut
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -188,7 +188,7 @@ namespace Fut360.Migrations
                         {
                             Id = 24,
                             Hora_fim = new TimeSpan(0, 0, 0, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 23, 0, 0, 0)
+                            Hora_inicio = new TimeSpan(0, 23, 30, 0, 0)
                         });
                 });
 

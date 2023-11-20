@@ -1,6 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
+
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
 namespace Fut360.Migrations
 {
@@ -55,9 +58,8 @@ namespace Fut360.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    data = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    hora_inicio = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    hora_fim = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Hora_inicio = table.Column<TimeSpan>(type: "time", nullable: false),
+                    Hora_fim = table.Column<TimeSpan>(type: "time", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -219,6 +221,32 @@ namespace Fut360.Migrations
                         principalTable: "LocalModel",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Horarios",
+                columns: new[] { "Id", "Hora_fim", "Hora_inicio" },
+                values: new object[,]
+                {
+                    { 6, new TimeSpan(0, 6, 30, 0, 0), new TimeSpan(0, 6, 0, 0, 0) },
+                    { 7, new TimeSpan(0, 7, 30, 0, 0), new TimeSpan(0, 7, 0, 0, 0) },
+                    { 8, new TimeSpan(0, 8, 30, 0, 0), new TimeSpan(0, 8, 0, 0, 0) },
+                    { 9, new TimeSpan(0, 9, 30, 0, 0), new TimeSpan(0, 9, 0, 0, 0) },
+                    { 10, new TimeSpan(0, 10, 30, 0, 0), new TimeSpan(0, 10, 0, 0, 0) },
+                    { 11, new TimeSpan(0, 11, 30, 0, 0), new TimeSpan(0, 11, 0, 0, 0) },
+                    { 12, new TimeSpan(0, 12, 30, 0, 0), new TimeSpan(0, 12, 0, 0, 0) },
+                    { 13, new TimeSpan(0, 13, 30, 0, 0), new TimeSpan(0, 13, 0, 0, 0) },
+                    { 14, new TimeSpan(0, 14, 30, 0, 0), new TimeSpan(0, 14, 0, 0, 0) },
+                    { 15, new TimeSpan(0, 15, 30, 0, 0), new TimeSpan(0, 15, 0, 0, 0) },
+                    { 16, new TimeSpan(0, 16, 30, 0, 0), new TimeSpan(0, 16, 0, 0, 0) },
+                    { 17, new TimeSpan(0, 17, 30, 0, 0), new TimeSpan(0, 17, 0, 0, 0) },
+                    { 18, new TimeSpan(0, 18, 30, 0, 0), new TimeSpan(0, 18, 0, 0, 0) },
+                    { 19, new TimeSpan(0, 19, 30, 0, 0), new TimeSpan(0, 19, 0, 0, 0) },
+                    { 20, new TimeSpan(0, 20, 30, 0, 0), new TimeSpan(0, 20, 0, 0, 0) },
+                    { 21, new TimeSpan(0, 21, 30, 0, 0), new TimeSpan(0, 21, 0, 0, 0) },
+                    { 22, new TimeSpan(0, 22, 30, 0, 0), new TimeSpan(0, 22, 0, 0, 0) },
+                    { 23, new TimeSpan(0, 23, 30, 0, 0), new TimeSpan(0, 23, 0, 0, 0) },
+                    { 24, new TimeSpan(0, 0, 0, 0, 0), new TimeSpan(0, 23, 30, 0, 0) }
                 });
 
             migrationBuilder.CreateIndex(

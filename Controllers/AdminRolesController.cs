@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 
@@ -11,13 +12,13 @@ namespace Fut360.Controllers;
 public class AdminRolesController : Controller
 {
     private RoleManager<IdentityRole> roleManager;
-    private UserManager<IdentityUser> userManager;
+    private UserManager<IdentityUser> userManager;   
 
     public AdminRolesController(RoleManager<IdentityRole> roleManager,
         UserManager<IdentityUser> userManager)
     {
         this.roleManager = roleManager;
-        this.userManager = userManager;
+        this.userManager = userManager;       
     }
 
     public ViewResult Index() => View(roleManager.Roles);
@@ -44,8 +45,10 @@ public class AdminRolesController : Controller
         List<IdentityUser> members = new List<IdentityUser>();
         List<IdentityUser> nonMembers = new List<IdentityUser>();
 
-        foreach (IdentityUser user in userManager.Users)
-        {
+        var users = await userManager.Users.ToListAsync();
+
+        foreach (IdentityUser user in users)
+        {           
             var list = await userManager.IsInRoleAsync(user, role.Name)
                 ? members : nonMembers;
 
