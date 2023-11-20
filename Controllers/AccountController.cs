@@ -1,12 +1,11 @@
 ﻿using Fut360.Data;
 using Fut360.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Fut360.Controllers
 {
-    
+
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> userManager;

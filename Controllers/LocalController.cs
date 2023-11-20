@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Fut360.Data;
 using Fut360.Models;
 using Microsoft.AspNetCore.Authorization;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 
 namespace Fut360.Controllers
@@ -35,10 +29,10 @@ namespace Fut360.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-      
+
 
             return _context.LocalModel != null ?
-                        View(await _context.LocalModel.ToListAsync()) : 
+                        View(await _context.LocalModel.ToListAsync()) :
                         Problem("Entity set 'Contexto.local'  is null.");
         }
 
@@ -66,7 +60,7 @@ namespace Fut360.Controllers
         //[Authorize(Roles = "User, Admin, Aprovador")]
         [Authorize(Policy = "RequireUserAdminAprovadorRole")]
         public async Task<IActionResult> Create()
-        { 
+        {
             List<IdentityUser> usuarios = await _userManager.Users.ToListAsync();
 
             ViewData["usuarios"] = usuarios;
@@ -104,7 +98,7 @@ namespace Fut360.Controllers
                 }
 
                 //var usuario = ModelState.SelectedValue<usuario>("Aprovador");
-            
+
 
 
                 _context.Add(localModel);

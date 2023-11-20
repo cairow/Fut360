@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.Identity.Client;
 
 namespace Fut360.Services
 {
@@ -15,7 +14,7 @@ namespace Fut360.Services
         }
         public async Task SeedRolesAsync()
         {
-            if (! await _roleManager.RoleExistsAsync("User"))
+            if (!await _roleManager.RoleExistsAsync("User"))
             {
                 IdentityRole role = new IdentityRole();
                 role.Name = "User";
@@ -47,7 +46,7 @@ namespace Fut360.Services
         public async Task SeedUsersAsync()
         {
             if (await _userManager.FindByEmailAsync("usuario@localhost") == null)
-            { 
+            {
                 IdentityUser user = new IdentityUser();
                 user.UserName = "usuario@localhost";
                 user.Email = "usuario@localhost";
@@ -55,7 +54,7 @@ namespace Fut360.Services
                 user.NormalizedEmail = "USUARIO@LOCALHOST";
                 user.EmailConfirmed = true;
                 user.LockoutEnabled = false;
-                user.SecurityStamp = Guid.NewGuid().ToString(); 
+                user.SecurityStamp = Guid.NewGuid().ToString();
 
                 IdentityResult result = await _userManager.CreateAsync(user, "Brasil10a");
 

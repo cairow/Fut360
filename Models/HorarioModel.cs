@@ -3,8 +3,7 @@
     public class HorarioModel
     {
         public int Id { get; set; }
-        public DateTime data { get; set; }
-        public DateTime hora_inicio { get; set; }
-        public DateTime hora_fim { get; set; }
+        public TimeSpan Hora_inicio { get; set; }
+        public TimeSpan Hora_fim { get; set; }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using Fut360.Data;
 using Fut360.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,7 +14,7 @@ namespace Fut360.Controllers
         public HomeController(Contexto context)
         {
             _context = context;
-  
+
         }
 
         // GET: Local

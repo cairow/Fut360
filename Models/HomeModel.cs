@@ -1,6 +1,4 @@
-﻿using Fut360.Models;
-
-namespace Fut360.Models
+﻿namespace Fut360.Models
 {
     public class HomeModel
     {
