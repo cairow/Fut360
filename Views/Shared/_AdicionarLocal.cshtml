@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    @if (User.IsInRole("Admin"))
+    {
+
+        <li class="nav-item">
+            <a class="nav-link " asp-controller="Local" asp-action="Create">
+                <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                    <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
+                </div>
+                <span class="nav-link-text ms-1">Adicionar Local</span>
+            </a>
+        </li>
+
+    }
+}

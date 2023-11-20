@@ -3,8 +3,11 @@
 @{
     ViewData["Title"] = "Locais Disponíveis";
 }
+<div class="text-center">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
 
-<div class="container-fluid py-4">
     <div class="col-lg-7 mb-lg-0 mb-4">
         <div class="card z-index-2 h-100">
             @if (Model != null && Model.Any())
@@ -27,7 +30,7 @@
                         </div>
                     </div>
                 }
-        }
+            }
         </div>
                  <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,7 +55,6 @@
                             <p class="mb-0 text-uppercase">Lista de Locais</p>
                             <a role="button" class="btn btn-primary btn-sm ms-auto" asp-controller="Local" asp-action="Create">Adicionar</a>
                         </div>
-                      
                     </div>
                     </br></br>
                     <div class="card-body px-0 pt-0 pb-2">
@@ -102,7 +104,10 @@
         </div>
     </div>
 </div>
-
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
 

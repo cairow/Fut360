@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Fut360.Migrations
 {
     /// <inheritdoc />
-    public partial class fut1 : Migration
+    public partial class fut : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -56,7 +56,9 @@ namespace Fut360.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    data = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    hora_inicio = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    hora_fim = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {

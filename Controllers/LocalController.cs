@@ -103,7 +103,7 @@ namespace Fut360.Controllers
                     localModel.ImagemLocal = novoNomeParaImagem;
                 }
 
-                var usuario = ModelState.SelectedValue<usuario>("Aprovador");
+                //var usuario = ModelState.SelectedValue<usuario>("Aprovador");
             
 
 

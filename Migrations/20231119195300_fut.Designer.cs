@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fut360.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20231118174107_fut1")]
-    partial class fut1
+    [Migration("20231119195300_fut")]
+    partial class fut
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -65,7 +65,13 @@ namespace Fut360.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DateTime")
+                    b.Property<DateTime>("data")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("hora_fim")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("hora_inicio")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
