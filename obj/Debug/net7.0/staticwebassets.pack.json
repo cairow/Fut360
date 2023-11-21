@@ -1329,6 +1329,10 @@
       "PackagePath": "staticwebassets\\images\\fut_login.jpg"
     },
     {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360_2011\\wwwroot\\images\\iQuadra.png",
+      "PackagePath": "staticwebassets\\images\\iQuadra.png"
+    },
+    {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360_2011\\wwwroot\\js\\calendar.js",
       "PackagePath": "staticwebassets\\js\\calendar.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b2uGjFTlaWS/vUzKTQmzwKwpmnWFqeu3Z9GA6Pf9fV8=",
+  "Hash": "LysWLDshn6lz6EfHN21kbVeI/lMLn+q6JOgmhm6QAjk=",
   "Source": "Fut360",
   "BasePath": "_content/Fut360",
   "Mode": "Default",
@@ -5676,6 +5676,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fut360logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360_2011\\wwwroot\\images\\iQuadra.png",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360_2011\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "images/iQuadra.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iQuadra.png"
     },
     {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360_2011\\wwwroot\\js\\calendar.js",

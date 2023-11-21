@@ -30,7 +30,6 @@ namespace Fut360.Controllers
         public async Task<IActionResult> Index()
         {
 
-
             return _context.LocalModel != null ?
                         View(await _context.LocalModel.ToListAsync()) :
                         Problem("Entity set 'Contexto.local'  is null.");

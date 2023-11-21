@@ -56,20 +56,19 @@
                                             @Html.ValidationMessageFor(x => x.ImagemLocal)
                                         </div>
                                     </div>
-                                     <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="Aprovador" class="form-control-label">Administrador do Local</label>
-                                        <select asp-for="Aprovador" class="form-control">
-                                            @foreach (var usuario in usuarios)
-                                                {
-                                                    <option value="@usuario.Id" >@usuario.NormalizedUserName</option>
-                                                }
+                                                <select asp-for="Aprovador" class="form-control">
+                                                    @foreach (var usuario in usuarios)
+                                                        {
+                                                         <option value="@usuario.Id" >@usuario.NormalizedUserName</option>
+                                                     }
 
-                                        </select>
-                                        @Html.ValidationMessageFor(x => x.Aprovador)
-
+                                                </select>
+                                                @Html.ValidationMessageFor(x => x.Aprovador)
+                                        </div>
                                     </div>
-                                </div>
                                 </div>
                         </div>
                     </form>
