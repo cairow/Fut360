@@ -30,7 +30,7 @@
                             <p class="text-sm">Informações:</p>
                             <div class="row">
                                 <div class="col-md-6 mb-0">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="Nome" class="form-control-label">Nome</label>
                                         <input class="form-control" asp-for="Nome" placeholder="Digite o nome"
                                             type="text">
@@ -38,7 +38,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="Endereco" class="form-control-label">Endereço</label>
                                         <input class="form-control" asp-for="Endereco"
                                             placeholder="Digite o Endereço completo" type="text">
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="Maplink" class="form-control-label">Google Maps Link</label>
                                         <input class="form-control" asp-for="Maplink"
                                             placeholder="Cole o link direto para o Google maps" type="text">
@@ -54,7 +54,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="Contato" class="form-control-label">Contato</label>
                                         <input class="form-control" asp-for="Contato"
                                             placeholder="Digite um telefone para contato" type="text">
@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="ImagemLocal" class="form-control-label">Foto</label>
                                         <input class="form-control" asp-for="ImagemLocal" type="file"
                                             placeholder="Insira uma imagem: ">
@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="Aprovador" class="form-control-label">Administrador do Local</label>
                                         <select id="Aprovador" asp-for="Aprovador" class="form-control">
                                             @foreach (var usuario in usuarios)

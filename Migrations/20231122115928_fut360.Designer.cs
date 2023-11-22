@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fut360.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20231120151417_fut")]
-    partial class fut
+    [Migration("20231122115928_fut360")]
+    partial class fut360
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

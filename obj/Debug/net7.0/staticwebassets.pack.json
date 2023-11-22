@@ -1,1571 +1,1575 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Fut360.bundle.scp.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Fut360.bundle.scp.css",
       "PackagePath": "staticwebassets\\Fut360.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\css\\argon-dashboard.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\css\\argon-dashboard.css",
       "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\css\\argon-dashboard.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\css\\argon-dashboard.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\css\\argon-dashboard.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\css\\argon-dashboard.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\argon-dashboard.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\css\\nucleo-icons.css",
       "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\css\\nucleo-svg.css",
       "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\fonts\\nucleo.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\apple-icon.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\bg-profile.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\bg-profile.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg-profile.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\bg1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\bg1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\bruce-mars.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\carousel-1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\carousel-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\carousel-2.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\carousel-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\carousel-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\carousel-3.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\carousel-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\carousel-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved-10.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved-10.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-10.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved-11.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved-11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-11.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved-6.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved-6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-6.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved-8.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved-8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-8.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved0.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved0.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved0.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved10.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved10.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved10.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved11-small.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved11-small.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11-small.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved11.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved12.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved12.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved12.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved13.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved13.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved13.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved14.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved14.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved14.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved19.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved19.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved19.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved2.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved2.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved21.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved21.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved21.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved3.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved4.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved4.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved5-small.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved5-small.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5-small.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved5.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved6-small.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved6-small.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6-small.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved6.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved7.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved7.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved8.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved8.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\curved9.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\curved9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved9.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\curved-images\\white-curved.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\curved-images\\white-curved.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\curved-images\\white-curved.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\down-arrow-dark.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\down-arrow-white.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\down-arrow.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\down-arrow.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\favicon.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\fut360logo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\fut360logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\fut360logo.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\fut_login.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\fut_login.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\fut_login.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\home-decor-1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\home-decor-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\home-decor-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\home-decor-2.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\home-decor-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\home-decor-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\home-decor-3.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\home-decor-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\home-decor-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\icons\\flags\\AU.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\icons\\flags\\AU.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\AU.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\icons\\flags\\BR.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\icons\\flags\\BR.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\BR.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\icons\\flags\\DE.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\icons\\flags\\DE.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\DE.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\icons\\flags\\GB.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\icons\\flags\\GB.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\GB.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\icons\\flags\\US.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\icons\\flags\\US.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\US.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\illustrations\\icon-documentation.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\illustrations\\icon-documentation.svg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\icon-documentation.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\ivana-square.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\ivana-square.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\ivancik.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\ivancik.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\ivancik.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\logo-ct-dark.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\logo-ct-dark.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo-ct-dark.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\logo-ct.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\logo-ct.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo-ct.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\logos\\mastercard.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\logos\\mastercard.png",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\logos\\visa.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\logos\\visa.png",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\visa.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\marie.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\marie.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\pattern-lines.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\shape-1.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\shape-1.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-1.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\shape-2.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\shape-2.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-2.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\shape-3.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\shape-3.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-3.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\wave-down.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\wave-down.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-down.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\wave-up.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\wave-up.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-up.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\waves-gray.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\waves-gray.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-gray.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-white.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\icon-sun-cloud.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-atlassian.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-invision.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-jira.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-slack.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-spotify.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-webdev.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-webdev.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-webdev.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-xd.svg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\team-1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\team-2.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\team-3.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\team-4.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\angular.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\angular.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\angular.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\bootstrap.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\bootstrap.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\bootstrap.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\dribbble.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\dribbble.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\dribbble.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\dropbox.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\dropbox.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\dropbox.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\mastercard.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\mastercard.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\mastercard.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\paypal.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\paypal.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\paypal.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\react.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\react.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\react.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\sketch.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\sketch.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\sketch.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\slack.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\slack.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\slack.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\spotify.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\spotify.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\spotify.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\tim.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\tim.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\tim.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\unass.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\unass.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\unass.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\visa.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\visa.png",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\visa.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\theme\\vue.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\theme\\vue.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\theme\\vue.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\img\\vr-bg.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\img\\vr-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\vr-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\argon-dashboard.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\argon-dashboard.js",
       "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\argon-dashboard.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\argon-dashboard.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\argon-dashboard.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\argon-dashboard.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\argon-dashboard.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\core\\popper.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\Chart.extension.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-notify.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scrollbar.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_alert.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_alert.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_avatars.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_avatars.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_avatars.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_badge.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_breadcrumbs.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_buttons.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_cards.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_cards.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_dark-version.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_dark-version.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dark-version.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_dropdown.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_dropdown.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_dropup.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_dropup.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_dropup.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_fixed-plugin.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_footer.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_footer.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_forms.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_gradients.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_gradients.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_header.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_header.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_header.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_info-areas.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_info-areas.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_info-areas.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_misc.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_misc.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_nav.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_nav.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_navbar-vertical.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_pagination.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_popovers.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_popovers.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_popovers.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_progress.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_progress.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_rtl.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_rtl.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_rtl.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_social-buttons.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_social-buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_social-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_tables.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_tables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_tilt.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_tilt.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tilt.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_timeline.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_timeline.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_timeline.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_tooltips.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_tooltips.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_tooltips.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_typography.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_typography.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities-extend.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_utilities-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\_variables.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\_variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_accordion.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_containers.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_helpers.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_maps.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_offcanvas.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_placeholders.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap-utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-check.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-control.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-range.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_form-text.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\forms\\_validation.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_color-bg.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_ratio.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stacks.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\helpers\\_vr.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_backdrop.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_container.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\utilities\\_api.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\bootstrap\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-background.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-background.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\cards\\card-background.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\cards\\card-carousel.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_styles.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_styles.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\custom\\_styles.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_variables.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\custom\\_variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\custom\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-check.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_form-switch.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_forms.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_inputs.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_labels.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_colored-shadows.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\_social-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\mixins\\mixins.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_flatpickr.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_nouislider.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\_prism.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\plugins\\free\\plugins.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\theme.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\theme.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\theme.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_animations.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_animations.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_animations.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_avatars.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_badge.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_cards-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_cards.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_choices.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_choices.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_choices.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_dark-version.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_dropdowns.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_fixed-plugin.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_form-switch.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_full-calendar.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_header.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_header.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_header.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_info-areas.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_misc-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_misc.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_navbar-vertical.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_rtl.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_social-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_table.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_table.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_table.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_timeline.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_utilities-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\argon-dashboard\\variables\\_virtual-reality.scss"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\01e26087-8af5-4080-9ad3-96c1f066fc1a_q1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\01e26087-8af5-4080-9ad3-96c1f066fc1a_q1.jpg",
       "PackagePath": "staticwebassets\\fotos\\01e26087-8af5-4080-9ad3-96c1f066fc1a_q1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\03b5c73b-267e-455e-a91c-470a5099f959_q1.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\03b5c73b-267e-455e-a91c-470a5099f959_q1.jpeg",
       "PackagePath": "staticwebassets\\fotos\\03b5c73b-267e-455e-a91c-470a5099f959_q1.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\050dc522-9817-4457-856f-0a119d9860af_MicrosoftTeams-image (15).png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\050dc522-9817-4457-856f-0a119d9860af_MicrosoftTeams-image (15).png",
       "PackagePath": "staticwebassets\\fotos\\050dc522-9817-4457-856f-0a119d9860af_MicrosoftTeams-image (15).png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\070160cc-fc28-4a7e-a5a4-10a73fb6aa39_q1.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\070160cc-fc28-4a7e-a5a4-10a73fb6aa39_q1.jpeg",
       "PackagePath": "staticwebassets\\fotos\\070160cc-fc28-4a7e-a5a4-10a73fb6aa39_q1.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\0d8092f6-9a3d-4d93-931f-10e799140138_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\1190c114-245b-42c0-b368-b0af867e1d7a_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\19f14563-ca81-47f1-ae45-74fba916075f_q1.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\19f14563-ca81-47f1-ae45-74fba916075f_q1.jpeg",
       "PackagePath": "staticwebassets\\fotos\\19f14563-ca81-47f1-ae45-74fba916075f_q1.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\1d8d0ad4-33a4-40bd-bf5e-ed8c3f6d8e4a_q3.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\1d8d0ad4-33a4-40bd-bf5e-ed8c3f6d8e4a_q3.jpeg",
       "PackagePath": "staticwebassets\\fotos\\1d8d0ad4-33a4-40bd-bf5e-ed8c3f6d8e4a_q3.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\22076cf3-b8a7-4bab-b702-57cb2f4f386d_download2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\28e00960-7d21-4f18-935b-f6c8e2bdd23e_download2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\2a9ee8a6-9ba2-4eb1-a373-73cca9aea00a_q1.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\2a9ee8a6-9ba2-4eb1-a373-73cca9aea00a_q1.jpeg",
       "PackagePath": "staticwebassets\\fotos\\2a9ee8a6-9ba2-4eb1-a373-73cca9aea00a_q1.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\2f2ae5ac-d91c-4c07-923d-c650feba1adf_sesclogo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\2f2ae5ac-d91c-4c07-923d-c650feba1adf_sesclogo.png",
       "PackagePath": "staticwebassets\\fotos\\2f2ae5ac-d91c-4c07-923d-c650feba1adf_sesclogo.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\31a2ddd5-8f1b-435e-9cfd-6a588fa0c5f0_q2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\31a2ddd5-8f1b-435e-9cfd-6a588fa0c5f0_q2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\31a2ddd5-8f1b-435e-9cfd-6a588fa0c5f0_q2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\3420331a-497e-451a-9efc-ad169d490824_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\3420331a-497e-451a-9efc-ad169d490824_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\3420331a-497e-451a-9efc-ad169d490824_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\37fc1cfd-ef40-4373-bd4b-70e327c9ba20_sesclogo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\37fc1cfd-ef40-4373-bd4b-70e327c9ba20_sesclogo.png",
       "PackagePath": "staticwebassets\\fotos\\37fc1cfd-ef40-4373-bd4b-70e327c9ba20_sesclogo.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\3a709326-c420-44c0-af5a-7e91efc43197_FB_IMG_1692643748962.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\3a709326-c420-44c0-af5a-7e91efc43197_FB_IMG_1692643748962.jpg",
       "PackagePath": "staticwebassets\\fotos\\3a709326-c420-44c0-af5a-7e91efc43197_FB_IMG_1692643748962.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\3b68bf40-813f-4053-a5ee-f1a9d0c1a001_q4f.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\3b68bf40-813f-4053-a5ee-f1a9d0c1a001_q4f.jpg",
       "PackagePath": "staticwebassets\\fotos\\3b68bf40-813f-4053-a5ee-f1a9d0c1a001_q4f.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\496694da-04c6-4e2d-b35c-09ab7ab21832_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\524abd0a-1576-4524-a75d-4ba99819454f_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\524abd0a-1576-4524-a75d-4ba99819454f_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\524abd0a-1576-4524-a75d-4ba99819454f_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\6d254dc1-1e1a-49d4-9c6e-6f0755d45025_WhatsApp Image 2023-11-13 at 16.24.42.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\6d254dc1-1e1a-49d4-9c6e-6f0755d45025_WhatsApp Image 2023-11-13 at 16.24.42.jpeg",
       "PackagePath": "staticwebassets\\fotos\\6d254dc1-1e1a-49d4-9c6e-6f0755d45025_WhatsApp Image 2023-11-13 at 16.24.42.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\7a63c5d1-a932-46dc-8a60-7212a0389e8e_bgfut.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\7a63c5d1-a932-46dc-8a60-7212a0389e8e_bgfut.jpg",
       "PackagePath": "staticwebassets\\fotos\\7a63c5d1-a932-46dc-8a60-7212a0389e8e_bgfut.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\887439e3-5d63-4eff-a7b6-2afdc3d4c756_sesclogo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\887439e3-5d63-4eff-a7b6-2afdc3d4c756_sesclogo.png",
       "PackagePath": "staticwebassets\\fotos\\887439e3-5d63-4eff-a7b6-2afdc3d4c756_sesclogo.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\89989db6-6c59-4a7a-9551-4c936ec5a552_q1.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\89989db6-6c59-4a7a-9551-4c936ec5a552_q1.jpg",
       "PackagePath": "staticwebassets\\fotos\\89989db6-6c59-4a7a-9551-4c936ec5a552_q1.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\90f3701b-5401-45cf-9b7b-9a43708b6707_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\90f3701b-5401-45cf-9b7b-9a43708b6707_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\90f3701b-5401-45cf-9b7b-9a43708b6707_download2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\9806ecc9-dd0d-4854-818c-5d534793d25d_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\9806ecc9-dd0d-4854-818c-5d534793d25d_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\9806ecc9-dd0d-4854-818c-5d534793d25d_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\b9f5098f-f2c3-4b90-b744-339c1fc527cc_286.bmp",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\a8d51529-26d5-4f09-aa62-19d9d47d798c_bgfut.jpg",
+      "PackagePath": "staticwebassets\\fotos\\a8d51529-26d5-4f09-aa62-19d9d47d798c_bgfut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\b9f5098f-f2c3-4b90-b744-339c1fc527cc_286.bmp",
       "PackagePath": "staticwebassets\\fotos\\b9f5098f-f2c3-4b90-b744-339c1fc527cc_286.bmp"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\c612c86f-9564-47f2-9ccd-841133bd1aa1_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\c612c86f-9564-47f2-9ccd-841133bd1aa1_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\c612c86f-9564-47f2-9ccd-841133bd1aa1_download2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\d2bc2f3d-c069-4230-921d-8a571f72b1e1_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\d2bc2f3d-c069-4230-921d-8a571f72b1e1_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\d2bc2f3d-c069-4230-921d-8a571f72b1e1_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\d42321ee-c858-4abd-9fa2-d728b0e5347d_Open.jpg",
+      "PackagePath": "staticwebassets\\fotos\\d42321ee-c858-4abd-9fa2-d728b0e5347d_Open.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\e0258027-6806-4826-9747-2241455e8c42_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\e3ee6612-b32a-4565-a018-737236eae1df_q3.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\e3ee6612-b32a-4565-a018-737236eae1df_q3.jpeg",
       "PackagePath": "staticwebassets\\fotos\\e3ee6612-b32a-4565-a018-737236eae1df_q3.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\e7fc5eb7-fa06-4680-b112-99155cd2973c_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\e7fc5eb7-fa06-4680-b112-99155cd2973c_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\e7fc5eb7-fa06-4680-b112-99155cd2973c_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg",
       "PackagePath": "staticwebassets\\fotos\\ea31c5ae-0e69-484d-9fee-6037aa247098_download2.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\eae70451-1fd1-40e4-9173-d423d4dce222_maracanazinho-01-507766_507766.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\eae70451-1fd1-40e4-9173-d423d4dce222_maracanazinho-01-507766_507766.jpg",
       "PackagePath": "staticwebassets\\fotos\\eae70451-1fd1-40e4-9173-d423d4dce222_maracanazinho-01-507766_507766.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png",
       "PackagePath": "staticwebassets\\fotos\\f400afc5-81cb-43c0-9c21-887d96c14f30_sesclogo2.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\f6185162-bda6-47e3-bca3-7805d03bbda9_q3.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\f6185162-bda6-47e3-bca3-7805d03bbda9_q3.jpeg",
       "PackagePath": "staticwebassets\\fotos\\f6185162-bda6-47e3-bca3-7805d03bbda9_q3.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\f62c9171-bf98-47d5-95c0-6e1bd0599c92_q3.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\f62c9171-bf98-47d5-95c0-6e1bd0599c92_q3.jpeg",
       "PackagePath": "staticwebassets\\fotos\\f62c9171-bf98-47d5-95c0-6e1bd0599c92_q3.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\f645a13d-e7bc-4c2e-8ca1-fbf9fc9f2c19_q3.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\f645a13d-e7bc-4c2e-8ca1-fbf9fc9f2c19_q3.jpeg",
       "PackagePath": "staticwebassets\\fotos\\f645a13d-e7bc-4c2e-8ca1-fbf9fc9f2c19_q3.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\fda6c5f3-8b28-4248-82ea-006100e51d6f_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\fda6c5f3-8b28-4248-82ea-006100e51d6f_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\fda6c5f3-8b28-4248-82ea-006100e51d6f_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg",
       "PackagePath": "staticwebassets\\fotos\\fe0f124e-23e2-4914-b51d-53cb9e5f3d95_images.jpeg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\images\\admin.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\images\\admin.jpg",
       "PackagePath": "staticwebassets\\images\\admin.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\images\\bgfut.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\images\\bgfut.jpg",
       "PackagePath": "staticwebassets\\images\\bgfut.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\images\\fut360logo.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\images\\fut360logo.png",
       "PackagePath": "staticwebassets\\images\\fut360logo.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\images\\fut_ind.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\images\\fut_ind.jpg",
       "PackagePath": "staticwebassets\\images\\fut_ind.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\images\\fut_login.jpg",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\images\\fut_login.jpg",
       "PackagePath": "staticwebassets\\images\\fut_login.jpg"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\images\\iQuadra.png",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\images\\iQuadra.png",
       "PackagePath": "staticwebassets\\images\\iQuadra.png"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\js\\calendar.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\js\\calendar.js",
       "PackagePath": "staticwebassets\\js\\calendar.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Rodrigo\\repos\\Fut360\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut2211\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

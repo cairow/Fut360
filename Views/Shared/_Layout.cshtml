@@ -23,8 +23,8 @@
           integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
           crossorigin="anonymous"
           referrerpolicy="no-referrer" />
-
 </head>
+
 <body class="g-sidenav-show   bg-gray-100">
     <div class="min-height-300 bg-primary position-absolute w-100"></div>
     <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 " id="sidenav-main">
@@ -63,14 +63,7 @@
                         <span class="nav-link-text ms-1">Meus Agendamentos</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " asp-controller="Agendamento" asp-action="Index">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">    
-                            <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Gerenciar Horários</span>
-                    </a>
-                </li>
+                <partial name="_LoginAprovador.cshtml" />
                 <li class="nav-item">
                     <a class="nav-link " href="https://www.netshoes.com.br/" target="blank">
                         <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -80,8 +73,6 @@
                     </a>
                 </li>
             </br>
-          
-
             </ul>
             <div class="sidenav-footer mx-5">
                 <form method="post" asp-controller="account" asp-action="logout">

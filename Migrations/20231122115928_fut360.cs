@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Fut360.Migrations
 {
     /// <inheritdoc />
-    public partial class fut : Migration
+    public partial class fut360 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
