@@ -58,9 +58,9 @@ namespace Fut360.Controllers
         // GET: Local/Create
         //[Authorize(Roles = "User, Admin, Aprovador")]
         [Authorize(Policy = "RequireUserAdminAprovadorRole")]
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
-            List<IdentityUser> usuarios = await _userManager.Users.ToListAsync();
+            List<IdentityUser> usuarios = _userManager.Users.ToList();
 
             ViewData["usuarios"] = usuarios;
 
@@ -74,39 +74,32 @@ namespace Fut360.Controllers
         public async Task<IActionResult> Create(LocalModel localModel)
         {
             var foto = HttpContext.Request.Form.Files[0];
+            var aprovador = HttpContext.Request.Form["Aprovador"][0];
+            localModel.Aprovador = _userManager.Users.ToList().Find((user) => user.Id == aprovador);
 
-            if (ModelState.IsValid)
+            if (foto != null && foto.Length > 0)
             {
-                if (foto != null && foto.Length > 0)
+                //salvar foto
+                string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
+                string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+
+                if (!Directory.Exists(caminhoParaSalvarImagem))
                 {
-                    //salvar foto
-                    string caminhoParaSalvarImagem = caminhoServidor + "\\fotos\\";
-                    string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
-
-                    if (!Directory.Exists(caminhoParaSalvarImagem))
-                    {
-                        Directory.CreateDirectory(caminhoParaSalvarImagem);
-                    }
-
-                    using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
-                    {
-                        await foto.CopyToAsync(stream);
-                    }
-
-                    localModel.ImagemLocal = novoNomeParaImagem;
+                    Directory.CreateDirectory(caminhoParaSalvarImagem);
                 }
 
-                //var usuario = ModelState.SelectedValue<usuario>("Aprovador");
+                using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+                {
+                    await foto.CopyToAsync(stream);
+                }
 
-
-
-                _context.Add(localModel);
-                await _context.SaveChangesAsync();
-
-                return RedirectToAction(nameof(Index));
+                localModel.ImagemLocal = novoNomeParaImagem;
             }
 
-            return View(localModel);
+            _context.Add(localModel);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
         [Authorize(Roles = "Admin")]
