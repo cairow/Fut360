@@ -34,9 +34,10 @@ namespace Fut360.Controllers
                 .Include(a => a.localModel)
                 .ToListAsync();
 
-            return agendamentosDoUsuario != null ?
-                View(agendamentosDoUsuario) :
-                Problem("Entity set 'Contexto.AgendamentoModel' is null.");
+             return agendamentosDoUsuario != null ?
+              View(agendamentosDoUsuario) :
+              Problem("Entity set 'Contexto.AgendamentoModel' is null.");
+
 
 
             //return _context.AgendamentoModel != null ?
@@ -71,9 +72,13 @@ namespace Fut360.Controllers
         }
 
         // GET: Agendamento/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create(HorarioModel horario)
         {
-            return View();
+            return _context.Horarios != null ?
+                View(await _context.Horarios.ToListAsync()) :
+                Problem("Entity set 'Contexto.local'  is null.");
+
+         
         }
 
         // POST: Agendamento/Create
