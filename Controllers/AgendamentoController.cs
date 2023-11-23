@@ -20,17 +20,17 @@ namespace Fut360.Controllers
         }
 
         // GET : Aprovador
-        public async Task<IActionResult> Aprovador(AgendamentoModel agendamentoModel) {
-
+        public async Task<IActionResult> Aprovador(AgendamentoModel agendamentoModel)
+        {
             //pega ID do usuario logado
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             //pega o Id do local
-            agendamentoModel.localModel = await _context.FindAsync<LocalModel>(agendamentoModel.Id) ?? new();
+            agendamentoModel.localModel = await _context.LocalModel.FindAsync(agendamentoModel.Id) ?? new();
 
             // Filtra os agendamentos pelo ID do usuário
             var agendamentosDoAprovador = await _context.AgendamentoModel
-                .Where(a => a.userModel.Id == userId)
+                .Where(a => a.localModel.Aprovador.Id == userId && !a.Aprovado)
                 .Include(a => a.localModel)
                 .ToListAsync();
 
@@ -40,10 +40,30 @@ namespace Fut360.Controllers
             //return _context.AgendamentoModel != null ?
             //                View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
             //                Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
-
-
         }
 
+        // GET : Aprovado
+        public IActionResult Aprovado(AgendamentoModel agendamentoModel)
+        {
+            var agendamentoId = HttpContext.Request.Path.Value?.Split('/').Last();
+            var agendamento = _context.AgendamentoModel.Find(int.Parse(agendamentoId ?? "")) ?? new();
+            agendamento.Aprovado = true;
+            _context.AgendamentoModel.Update(agendamento);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Aprovador));
+        }
+
+        // GET : Desaprovado
+        public IActionResult Desaprovado(AgendamentoModel agendamentoModel)
+        {
+            var agendamentoId = HttpContext.Request.Path.Value?.Split('/').Last();
+            var agendamento = _context.AgendamentoModel.Find(int.Parse(agendamentoId ?? "")) ?? new();
+            _context.AgendamentoModel.Remove(agendamento);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Aprovador));
+        }
 
         // GET: Agendamento
         public async Task<IActionResult> Index(AgendamentoModel agendamentoModel)
@@ -117,14 +137,9 @@ namespace Fut360.Controllers
             var date = data.Form["data"][0];
             var horaInicial = data.Form["DataHoraInicial"][0];
             var horaFinal = data.Form["DataHoraFinal"][0];
-            // Console.WriteLine(data.Form["data"]);
-            // Console.WriteLine(data.Form["DataHoraInicial"]);
-            // Console.WriteLine(data.Form["DataHoraFinal"]);
 
             agendamentoModel.DataHoraInicial = DateTime.Parse($"{date} {horaInicial}");
             agendamentoModel.DataHoraFinal = DateTime.Parse($"{date} {horaFinal}");
-            Console.WriteLine(agendamentoModel.DataHoraInicial);
-            Console.WriteLine(agendamentoModel.DataHoraFinal);
 
             var now = DateTime.Now;
 
