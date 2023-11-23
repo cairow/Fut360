@@ -74,11 +74,14 @@ namespace Fut360.Controllers
         // GET: Agendamento/Create
         public async Task<IActionResult> Create(HorarioModel horario)
         {
-            return _context.Horarios != null ?
-                View(await _context.Horarios.ToListAsync()) :
-                Problem("Entity set 'Contexto.local'  is null.");
+            List<HorarioModel> horarios = _context.Horarios.ToList();
+            List<LocalModel> locais = _context.LocalModel.ToList();
+
+            ViewData["horarios"] = horarios;
+            ViewData["locais"] = locais;
 
          
+            return View();
         }
 
         // POST: Agendamento/Create
@@ -86,6 +89,10 @@ namespace Fut360.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AgendamentoModel agendamentoModel)
         {
+
+            var data = HttpContext.Request;
+            Console.WriteLine(data);
+
             var now = DateTime.Now;
 
             if (agendamentoModel.DataHoraInicial <= now || agendamentoModel.DataHoraFinal <= now)

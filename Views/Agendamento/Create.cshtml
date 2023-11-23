@@ -2,21 +2,48 @@
 
 @{
     ViewData["Title"] = "Realizar um agendamento";
+    List<HorarioModel> horarios = ViewData["horarios"] as List<HorarioModel>;
+    List<LocalModel> locais = ViewData["locais"] as List<LocalModel>;
+
+    
 }
-<div class="text-center">
+<div class="py-4">
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-12">
                 <div class="card mb-4">
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4">
+                        <div class="card-header pb-0">
+                            <div class="d-flex align-items-center">
+                                <p class="mb-0 text-uppercase">AGENDAMENTO</p>
+                            </div>
+                        </div> </br>
                         <form asp-controller="Agendamento" asp-action="Create" method="post">
-
                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
                             <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
-           
-                            
+                            <div>
+                                <h6> ** Horários Disponíveis ** </h6>
+                           
+                                    <p>NOME DA QUADRA</p>
+                                
+                            </div>
+                            <label for="Data" class="form-control-label">Data</label>
+                            <input type="date" class="form-control-label" name="data"/>
 
+                            <label for="DataHoraInicial" class="form-control-label">Hora Inicial</label>
+                            <select id="DataHoraInicial" asp-for="DataHoraInicial" class="form-control">
+                                @foreach (var horario in horarios)
+                                {
+                                    <option value="@horario.Id">@horario.Hora_inicio</option>
+                                }
+                            </select>
+                            <label for="DataHoraFinal" class="form-control-label">Hora Final</label>
+                            <select id="DataHoraFinal" asp-for="DataHoraFinal" class="form-control">
+                                @foreach (var horario in horarios)
+                                {
+                                    <option value="@horario.Id">@horario.Hora_fim</option>
+                                }
+                            </select>
 
                             <div class="form-group">
                                 <input type="submit" value="Salvar" class="btn btn-primary" />

@@ -3,13 +3,6 @@
 
 @{
     ViewData["Title"] = "Cadastro de Local";
-
-
-
-
-
-
-
     List<IdentityUser> usuarios = ViewData["usuarios"] as List<IdentityUser>;
 }
 
@@ -74,7 +67,6 @@
                                         <label for="Aprovador" class="form-control-label">Administrador do Local</label>
                                         <select id="Aprovador" asp-for="Aprovador" class="form-control">
                                             @foreach (var usuario in usuarios)
-
                                             {
                                                 <option value="@usuario.Id">@usuario.NormalizedUserName</option>
                                             }
