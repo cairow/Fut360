@@ -2,10 +2,10 @@
 
 @{
     ViewData["Title"] = "Realizar um agendamento";
-    List<HorarioModel> horarios = ViewData["horarios"] as List<HorarioModel>;
-    List<LocalModel> locais = ViewData["locais"] as List<LocalModel>;
 
-    
+    List<HorarioModel> horarios = ViewData["horarios"] as List<HorarioModel>;
+
+    List<LocalModel> locais = ViewData["locais"] as List<LocalModel>;
 }
 <div class="py-4">
     <div class="container-fluid py-4">
@@ -23,36 +23,34 @@
                             <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
                             <div>
                                 <h6> ** Horários Disponíveis ** </h6>
-                           
-                                    <p>NOME DA QUADRA</p>
-                                
+                                <p>NOME DA QUADRA</p>
                             </div>
                             <label for="Data" class="form-control-label">Data</label>
-                            <input type="date" class="form-control-label" name="data"/>
+                            <input type="date" class="form-control-label" name="data" />
 
                             <label for="DataHoraInicial" class="form-control-label">Hora Inicial</label>
-                            <select id="DataHoraInicial" asp-for="DataHoraInicial" class="form-control">
+                            <select id="DataHoraInicial" name="DataHoraInicial" class="form-control">
                                 @foreach (var horario in horarios)
+
                                 {
-                                    <option value="@horario.Id">@horario.Hora_inicio</option>
+                                    <option value="@horario.Hora_inicio">@horario.Hora_inicio</option>
                                 }
                             </select>
                             <label for="DataHoraFinal" class="form-control-label">Hora Final</label>
-                            <select id="DataHoraFinal" asp-for="DataHoraFinal" class="form-control">
+                            <select id="DataHoraFinal" name="DataHoraFinal" class="form-control">
                                 @foreach (var horario in horarios)
+
                                 {
-                                    <option value="@horario.Id">@horario.Hora_fim</option>
+                                    <option value="@horario.Hora_fim">@horario.Hora_fim</option>
                                 }
                             </select>
 
                             <div class="form-group">
                                 <input type="submit" value="Salvar" class="btn btn-primary" />
                             </div>
-
-
                         </form>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
     </div>

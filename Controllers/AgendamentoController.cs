@@ -34,12 +34,9 @@ namespace Fut360.Controllers
                 .Include(a => a.localModel)
                 .ToListAsync();
 
-             return agendamentosDoUsuario != null ?
-              View(agendamentosDoUsuario) :
-              Problem("Entity set 'Contexto.AgendamentoModel' is null.");
-
-
-
+            return agendamentosDoUsuario != null ?
+             View(agendamentosDoUsuario) :
+             Problem("Entity set 'Contexto.AgendamentoModel' is null.");
             //return _context.AgendamentoModel != null ?
             //                View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
             //                Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
@@ -80,7 +77,7 @@ namespace Fut360.Controllers
             ViewData["horarios"] = horarios;
             ViewData["locais"] = locais;
 
-         
+
             return View();
         }
 
@@ -89,9 +86,19 @@ namespace Fut360.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AgendamentoModel agendamentoModel)
         {
-
             var data = HttpContext.Request;
-            Console.WriteLine(data);
+
+            var date = data.Form["data"][0];
+            var horaInicial = data.Form["DataHoraInicial"][0];
+            var horaFinal = data.Form["DataHoraFinal"][0];
+            // Console.WriteLine(data.Form["data"]);
+            // Console.WriteLine(data.Form["DataHoraInicial"]);
+            // Console.WriteLine(data.Form["DataHoraFinal"]);
+
+            agendamentoModel.DataHoraInicial = DateTime.Parse($"{date} {horaInicial}");
+            agendamentoModel.DataHoraFinal = DateTime.Parse($"{date} {horaFinal}");
+            Console.WriteLine(agendamentoModel.DataHoraInicial);
+            Console.WriteLine(agendamentoModel.DataHoraFinal);
 
             var now = DateTime.Now;
 
