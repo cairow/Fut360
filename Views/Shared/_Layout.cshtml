@@ -46,23 +46,8 @@
                     </a>
                 </li>
                 <partial name="_LoginAdmin.cshtml" />
-                <li class="nav-item">
-                    <a class="nav-link " asp-controller="Local" asp-action="Index">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Locais Disponíveis</span>
-                    </a>
-                </li>
                 <partial name="_AdicionarLocal.cshtml" />
-                <li class="nav-item">
-                    <a class="nav-link " asp-controller="Agendamento" asp-action="Index">
-                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">    
-                            <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
-                        </div>
-                        <span class="nav-link-text ms-1">Meus Agendamentos</span>
-                    </a>
-                </li>
+                <partial name="_LoginUsuario.cshtml" />
                 <partial name="_LoginAprovador.cshtml" />
                 <li class="nav-item">
                     <a class="nav-link " href="https://www.netshoes.com.br/" target="blank">

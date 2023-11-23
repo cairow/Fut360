@@ -19,6 +19,32 @@ namespace Fut360.Controllers
             _context = context;
         }
 
+        // GET : Aprovador
+        public async Task<IActionResult> Aprovador(AgendamentoModel agendamentoModel) {
+
+            //pega ID do usuario logado
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            //pega o Id do local
+            agendamentoModel.localModel = await _context.FindAsync<LocalModel>(agendamentoModel.Id) ?? new();
+
+            // Filtra os agendamentos pelo ID do usuário
+            var agendamentosDoAprovador = await _context.AgendamentoModel
+                .Where(a => a.userModel.Id == userId)
+                .Include(a => a.localModel)
+                .ToListAsync();
+
+            return agendamentosDoAprovador != null ?
+             View(agendamentosDoAprovador) :
+             Problem("Entity set 'Contexto.AgendamentoModel' is null.");
+            //return _context.AgendamentoModel != null ?
+            //                View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
+            //                Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+
+
+        }
+
+
         // GET: Agendamento
         public async Task<IActionResult> Index(AgendamentoModel agendamentoModel)
         {
@@ -112,14 +138,14 @@ namespace Fut360.Controllers
                 return BadRequest("Horario inicial deve ser menor que o horario final.");
             }
 
-            if (agendamentoModel.DataHoraInicial <= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(6) || agendamentoModel.DataHoraFinal <= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(6))
+            if (agendamentoModel.DataHoraInicial <= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(5) || agendamentoModel.DataHoraFinal <= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(6))
             {
                 return BadRequest("Agendamentos são permitidos apenas depois das 6 da manhã.");
             }
 
-            if (agendamentoModel.DataHoraInicial >= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(23) || agendamentoModel.DataHoraFinal >= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(23))
+            if (agendamentoModel.DataHoraInicial >= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(24) || agendamentoModel.DataHoraFinal >= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(23))
             {
-                return BadRequest("Agendamentos são permitidos apenas antes das 11 da noite.");
+                return BadRequest("Agendamentos são permitidos apenas antes da 00 da noite.");
             }
 
             var agendamentos = _context.AgendamentoModel.Where(a => a.localModel.Id == agendamentoModel.Id);

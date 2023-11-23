@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Fut360.Models.AgendamentoModel>
+
+@{
+    ViewData["Title"] = "Aprovar";
+}
+
+<div class="text-center">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-header pb-0">
+                        <div class="d-flex align-items-center">
+                            <p class="mb-0 text-uppercase">Aprovar - Horários</p>
+                        </div>
+
+                    </div>
+                    </br></br>
+                    <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                            <table class="table" id="table-locais">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            NOME DO USUARIO
+                                        </th>
+                                        <th>
+                                            Hora Inicial)
+                                        </th>
+                                        <th>
+                                            Hora Final
+                                        </th>
+                                        <th>
+                                            Usuário
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                NOME DO USUARIO
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DataHoraInicial)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.DataHoraFinal)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.userModel.UserName)
+                                            </td>
+                                            <td>
+                                                <a role="button" class="badge badge-sm bg-gradient-success" asp-action="" asp-route-id="@item.Id">Aprovar</a>
+                                                <a role="button" class="badge badge-sm bg-gradient-success" asp-action="" asp-route-id="@item.Id">Rejeitar</a> 
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
