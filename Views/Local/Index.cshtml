@@ -23,29 +23,29 @@
         list-style-type: none;
         text-align: left;
     }
-    .locais{
+
+    .locais {
         width: 1100px;
         margin-left: auto;
         margin-right: auto;
     }
- 
 </style>
 
- <div class="">
+<div class="">
     <div class="container-fluid py-4">
         <div class="row">
 
             <div class="row mt-2">
-                <div class="col-lg-7 mb-lg-0 mb-4 locais">
-                    <div class="card z-index-2 h-100">   
+                <div class="col-lg-7 mb-lg-0 mb-4 locais" id="locaisContainer">
+                    <div class="card z-index-2 h-100">
                         @if (Model != null && Model.Any())
                         {
                             foreach (LocalModel local in Model)
                             {
-                            <div class="card-body p-3">
-                                <div class="chart">
-                                    <div class="lista-quadra card">
-                                        <div class="img-quadra">
+                                <div class="card-body p-3">
+                                    <div class="chart">
+                                        <div class="lista-quadra card">
+                                            <div class="img-quadra">
                                                 <img src="~/images/fut_ind.jpg" alt="">
                                                 @if (!string.IsNullOrEmpty(local.ImagemLocal))
                                                 {
@@ -55,20 +55,22 @@
                                                 {
                                                     <p>Imagem não encontrada</p>
                                                 }
-                                        </div>
-                                        <div class="list-conteudo">
-                                            <h2>@local.Nome</h2>
-                                            <p><i class="fa fa-bell"></i> @local.Endereco</p>
-                                            <p><i class="fa fa-clock"></i> @local.Contato</p>
+                                            </div>
+                                            <div class="list-conteudo">
+                                                <h2>@local.Nome</h2>
+                                                <p><i class="fa fa-bell"></i> @local.Endereco</p>
+                                                <p><i class="fa fa-clock"></i> @local.Contato</p>
                                                 <a role="button" class="badge badge-sm bg-gradient-success" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Ver horários</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             }
                         }
                     </div>
                 </div>
+                <div id="pagination"></div>
+
             </div>
 
 
@@ -86,44 +88,44 @@
                                 </br>
                                 <div class="card-body px-0 pt-0 pb-2">
                                     <div class="table-responsive p-0">
-                                    <table class="table align-items-center mb-0" id="table-locais">
-                                        <thead>
-                                            <tr>
-                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome</th>
-                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Endereço</th>
-                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Localização</th>
-                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contato</th>
-                                                <th class="text-secondary opacity-7"></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            @if (Model != null && Model.Any())
-                                            {
-                                                foreach (LocalModel local in Model)
+                                        <table class="table align-items-center mb-0" id="table-locais">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome</th>
+                                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Endereço</th>
+                                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Localização</th>
+                                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contato</th>
+                                                    <th class="text-secondary opacity-7"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @if (Model != null && Model.Any())
                                                 {
-                                                    <tr>
-                                                        <td>              
-                                                            <h6 class="mb-0 text-sm">@local.Nome</h6>  
-                                                        </td>
-                                                        <td>
-                                                            <p class="text-xs font-weight-bold mb-0">@local.Endereco</p>
-                                                        </td>
-                                                        <td>
-                                                            <p class="text-xs font-weight-bold mb-0">@local.Maplink</p>
-                                                        </td>
-                                                        <td>
-                                                            <p class="text-xs font-weight-bold mb-0">@local.Contato</p>
-                                                        </td>
-                                                        <td class="align-middle text-center text-sm">
-                                                            <div class="btn-group" role="group">
+                                                    foreach (LocalModel local in Model)
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <h6 class="mb-0 text-sm">@local.Nome</h6>
+                                                            </td>
+                                                            <td>
+                                                                <p class="text-xs font-weight-bold mb-0">@local.Endereco</p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="@local.Maplink" target="_blank" class="text-xs font-weight-bold mb-0">Maps</a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="text-xs font-weight-bold mb-0">@local.Contato</p>
+                                                            </td>
+                                                            <td class="align-middle text-center text-sm">
+                                                                <div class="btn-group" role="group">
                                                                     <a role="button" class="badge badge-sm bg-gradient-success" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Agendar</a>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    }
                                                 }
-                                            }
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -131,8 +133,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
- </div>
+</div>
 
 
