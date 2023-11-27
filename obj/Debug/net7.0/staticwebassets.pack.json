@@ -1201,6 +1201,18 @@
       "PackagePath": "staticwebassets\\images\\bgfut.jpg"
     },
     {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\corinthians.jpg",
+      "PackagePath": "staticwebassets\\images\\corinthians.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\cruzeiro.png",
+      "PackagePath": "staticwebassets\\images\\cruzeiro.png"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\fortaleza.png",
+      "PackagePath": "staticwebassets\\images\\fortaleza.png"
+    },
+    {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\fut360logo.png",
       "PackagePath": "staticwebassets\\images\\fut360logo.png"
     },
@@ -1211,6 +1223,10 @@
     {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\fut_login.jpg",
       "PackagePath": "staticwebassets\\images\\fut_login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\gremio.png",
+      "PackagePath": "staticwebassets\\images\\gremio.png"
     },
     {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\fun24\\wwwroot\\images\\iQuadra.png",
