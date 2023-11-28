@@ -25,52 +25,42 @@
                                             NOME DO USUARIO
                                         </th>
                                         <th>
-                                            Hora Inicial)
+                                            Hora Inicial
                                         </th>
                                         <th>
                                             Hora Final
                                         </th>
-                                        <th>
-                                            Usuário
-                                        </th>
+                                        <th>Status</th>
                                         <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach (var item in Model)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                     {
                                         <tr>
                                             <td>
-                                                NOME DO USUARIO
+                                                @item.userModel.NormalizedUserName
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.DataHoraInicial)
+                                               @item.DataHoraInicial
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.DataHoraFinal)
+                                               @item.DataHoraFinal
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.userModel.UserName)
+                                                @if (item.Aprovado is true)
+                                                {
+                                                    <span>APROVADO</span>
+                                                }
+                                                else
+                                                {
+                                                    <span>NÃO APROVADO</span>
+                                                }
                                             </td>
                                             <td>
                                                 <a class="badge badge-sm bg-gradient-success" asp-action="Aprovado"
                                                     asp-route-id="@item.Id">Aprovar</a>
-                                                <a class="badge badge-sm bg-gradient-success" asp-action="Desaprovado"
+                                                <a class="badge badge-sm bg-gradient-danger" asp-action="Desaprovado"
                                                     asp-route-id="@item.Id">Rejeitar</a>
                                             </td>
                                         </tr>

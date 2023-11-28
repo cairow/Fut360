@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Fut360.Migrations
 {
     /// <inheritdoc />
-    public partial class futsn : Migration
+    public partial class futnf3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -228,25 +228,43 @@ namespace Fut360.Migrations
                 columns: new[] { "Id", "Hora_fim", "Hora_inicio" },
                 values: new object[,]
                 {
-                    { 6, new TimeSpan(0, 6, 30, 0, 0), new TimeSpan(0, 6, 0, 0, 0) },
-                    { 7, new TimeSpan(0, 7, 30, 0, 0), new TimeSpan(0, 7, 0, 0, 0) },
-                    { 8, new TimeSpan(0, 8, 30, 0, 0), new TimeSpan(0, 8, 0, 0, 0) },
-                    { 9, new TimeSpan(0, 9, 30, 0, 0), new TimeSpan(0, 9, 0, 0, 0) },
-                    { 10, new TimeSpan(0, 10, 30, 0, 0), new TimeSpan(0, 10, 0, 0, 0) },
-                    { 11, new TimeSpan(0, 11, 30, 0, 0), new TimeSpan(0, 11, 0, 0, 0) },
-                    { 12, new TimeSpan(0, 12, 30, 0, 0), new TimeSpan(0, 12, 0, 0, 0) },
-                    { 13, new TimeSpan(0, 13, 30, 0, 0), new TimeSpan(0, 13, 0, 0, 0) },
-                    { 14, new TimeSpan(0, 14, 30, 0, 0), new TimeSpan(0, 14, 0, 0, 0) },
-                    { 15, new TimeSpan(0, 15, 30, 0, 0), new TimeSpan(0, 15, 0, 0, 0) },
-                    { 16, new TimeSpan(0, 16, 30, 0, 0), new TimeSpan(0, 16, 0, 0, 0) },
-                    { 17, new TimeSpan(0, 17, 30, 0, 0), new TimeSpan(0, 17, 0, 0, 0) },
-                    { 18, new TimeSpan(0, 18, 30, 0, 0), new TimeSpan(0, 18, 0, 0, 0) },
-                    { 19, new TimeSpan(0, 19, 30, 0, 0), new TimeSpan(0, 19, 0, 0, 0) },
-                    { 20, new TimeSpan(0, 20, 30, 0, 0), new TimeSpan(0, 20, 0, 0, 0) },
-                    { 21, new TimeSpan(0, 21, 30, 0, 0), new TimeSpan(0, 21, 0, 0, 0) },
-                    { 22, new TimeSpan(0, 22, 30, 0, 0), new TimeSpan(0, 22, 0, 0, 0) },
-                    { 23, new TimeSpan(0, 23, 30, 0, 0), new TimeSpan(0, 23, 0, 0, 0) },
-                    { 24, new TimeSpan(0, 0, 0, 0, 0), new TimeSpan(0, 23, 30, 0, 0) }
+                    { 1, new TimeSpan(0, 6, 0, 0, 0), new TimeSpan(0, 6, 0, 0, 0) },
+                    { 2, new TimeSpan(0, 6, 30, 0, 0), new TimeSpan(0, 6, 30, 0, 0) },
+                    { 3, new TimeSpan(0, 7, 0, 0, 0), new TimeSpan(0, 7, 0, 0, 0) },
+                    { 4, new TimeSpan(0, 7, 30, 0, 0), new TimeSpan(0, 7, 30, 0, 0) },
+                    { 5, new TimeSpan(0, 8, 0, 0, 0), new TimeSpan(0, 8, 0, 0, 0) },
+                    { 6, new TimeSpan(0, 8, 30, 0, 0), new TimeSpan(0, 8, 30, 0, 0) },
+                    { 7, new TimeSpan(0, 9, 0, 0, 0), new TimeSpan(0, 9, 0, 0, 0) },
+                    { 8, new TimeSpan(0, 9, 30, 0, 0), new TimeSpan(0, 9, 30, 0, 0) },
+                    { 9, new TimeSpan(0, 10, 0, 0, 0), new TimeSpan(0, 10, 0, 0, 0) },
+                    { 10, new TimeSpan(0, 10, 30, 0, 0), new TimeSpan(0, 10, 30, 0, 0) },
+                    { 11, new TimeSpan(0, 11, 0, 0, 0), new TimeSpan(0, 11, 0, 0, 0) },
+                    { 12, new TimeSpan(0, 11, 30, 0, 0), new TimeSpan(0, 11, 30, 0, 0) },
+                    { 13, new TimeSpan(0, 12, 0, 0, 0), new TimeSpan(0, 12, 0, 0, 0) },
+                    { 14, new TimeSpan(0, 12, 30, 0, 0), new TimeSpan(0, 12, 30, 0, 0) },
+                    { 15, new TimeSpan(0, 13, 0, 0, 0), new TimeSpan(0, 13, 0, 0, 0) },
+                    { 16, new TimeSpan(0, 13, 30, 0, 0), new TimeSpan(0, 13, 30, 0, 0) },
+                    { 17, new TimeSpan(0, 14, 0, 0, 0), new TimeSpan(0, 14, 0, 0, 0) },
+                    { 18, new TimeSpan(0, 14, 30, 0, 0), new TimeSpan(0, 14, 30, 0, 0) },
+                    { 19, new TimeSpan(0, 15, 0, 0, 0), new TimeSpan(0, 15, 0, 0, 0) },
+                    { 20, new TimeSpan(0, 15, 30, 0, 0), new TimeSpan(0, 15, 30, 0, 0) },
+                    { 21, new TimeSpan(0, 16, 0, 0, 0), new TimeSpan(0, 16, 0, 0, 0) },
+                    { 22, new TimeSpan(0, 16, 30, 0, 0), new TimeSpan(0, 16, 30, 0, 0) },
+                    { 23, new TimeSpan(0, 17, 0, 0, 0), new TimeSpan(0, 17, 0, 0, 0) },
+                    { 24, new TimeSpan(0, 17, 30, 0, 0), new TimeSpan(0, 17, 30, 0, 0) },
+                    { 25, new TimeSpan(0, 18, 0, 0, 0), new TimeSpan(0, 18, 0, 0, 0) },
+                    { 26, new TimeSpan(0, 18, 30, 0, 0), new TimeSpan(0, 18, 30, 0, 0) },
+                    { 27, new TimeSpan(0, 19, 0, 0, 0), new TimeSpan(0, 19, 0, 0, 0) },
+                    { 28, new TimeSpan(0, 19, 30, 0, 0), new TimeSpan(0, 19, 30, 0, 0) },
+                    { 29, new TimeSpan(0, 20, 0, 0, 0), new TimeSpan(0, 20, 0, 0, 0) },
+                    { 30, new TimeSpan(0, 20, 30, 0, 0), new TimeSpan(0, 20, 30, 0, 0) },
+                    { 31, new TimeSpan(0, 21, 0, 0, 0), new TimeSpan(0, 21, 0, 0, 0) },
+                    { 32, new TimeSpan(0, 21, 30, 0, 0), new TimeSpan(0, 21, 30, 0, 0) },
+                    { 33, new TimeSpan(0, 22, 0, 0, 0), new TimeSpan(0, 22, 0, 0, 0) },
+                    { 34, new TimeSpan(0, 22, 30, 0, 0), new TimeSpan(0, 22, 30, 0, 0) },
+                    { 35, new TimeSpan(0, 23, 0, 0, 0), new TimeSpan(0, 23, 0, 0, 0) },
+                    { 36, new TimeSpan(0, 23, 30, 0, 0), new TimeSpan(0, 23, 30, 0, 0) },
+                    { 37, new TimeSpan(0, 0, 0, 0, 0), new TimeSpan(0, 0, 0, 0, 0) }
                 });
 
             migrationBuilder.CreateIndex(

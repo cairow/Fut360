@@ -75,117 +75,225 @@ namespace Fut360.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 6,
-                            Hora_fim = new TimeSpan(0, 6, 30, 0, 0),
+                            Id = 1,
+                            Hora_fim = new TimeSpan(0, 6, 0, 0, 0),
                             Hora_inicio = new TimeSpan(0, 6, 0, 0, 0)
                         },
                         new
                         {
-                            Id = 7,
-                            Hora_fim = new TimeSpan(0, 7, 30, 0, 0),
+                            Id = 2,
+                            Hora_fim = new TimeSpan(0, 6, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 6, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Hora_fim = new TimeSpan(0, 7, 0, 0, 0),
                             Hora_inicio = new TimeSpan(0, 7, 0, 0, 0)
                         },
                         new
                         {
-                            Id = 8,
-                            Hora_fim = new TimeSpan(0, 8, 30, 0, 0),
+                            Id = 4,
+                            Hora_fim = new TimeSpan(0, 7, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 7, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Hora_fim = new TimeSpan(0, 8, 0, 0, 0),
                             Hora_inicio = new TimeSpan(0, 8, 0, 0, 0)
                         },
                         new
                         {
-                            Id = 9,
-                            Hora_fim = new TimeSpan(0, 9, 30, 0, 0),
+                            Id = 6,
+                            Hora_fim = new TimeSpan(0, 8, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 8, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Hora_fim = new TimeSpan(0, 9, 0, 0, 0),
                             Hora_inicio = new TimeSpan(0, 9, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Hora_fim = new TimeSpan(0, 9, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 9, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Hora_fim = new TimeSpan(0, 10, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 10, 0, 0, 0)
                         },
                         new
                         {
                             Id = 10,
                             Hora_fim = new TimeSpan(0, 10, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 10, 0, 0, 0)
+                            Hora_inicio = new TimeSpan(0, 10, 30, 0, 0)
                         },
                         new
                         {
                             Id = 11,
-                            Hora_fim = new TimeSpan(0, 11, 30, 0, 0),
+                            Hora_fim = new TimeSpan(0, 11, 0, 0, 0),
                             Hora_inicio = new TimeSpan(0, 11, 0, 0, 0)
                         },
                         new
                         {
                             Id = 12,
-                            Hora_fim = new TimeSpan(0, 12, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 12, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 11, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 11, 30, 0, 0)
                         },
                         new
                         {
                             Id = 13,
-                            Hora_fim = new TimeSpan(0, 13, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 13, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 12, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 12, 0, 0, 0)
                         },
                         new
                         {
                             Id = 14,
-                            Hora_fim = new TimeSpan(0, 14, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 14, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 12, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 12, 30, 0, 0)
                         },
                         new
                         {
                             Id = 15,
-                            Hora_fim = new TimeSpan(0, 15, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 15, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 13, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 13, 0, 0, 0)
                         },
                         new
                         {
                             Id = 16,
-                            Hora_fim = new TimeSpan(0, 16, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 16, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 13, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 13, 30, 0, 0)
                         },
                         new
                         {
                             Id = 17,
-                            Hora_fim = new TimeSpan(0, 17, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 17, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 14, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 14, 0, 0, 0)
                         },
                         new
                         {
                             Id = 18,
-                            Hora_fim = new TimeSpan(0, 18, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 18, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 14, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 14, 30, 0, 0)
                         },
                         new
                         {
                             Id = 19,
-                            Hora_fim = new TimeSpan(0, 19, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 19, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 15, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 15, 0, 0, 0)
                         },
                         new
                         {
                             Id = 20,
-                            Hora_fim = new TimeSpan(0, 20, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 20, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 15, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 15, 30, 0, 0)
                         },
                         new
                         {
                             Id = 21,
-                            Hora_fim = new TimeSpan(0, 21, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 21, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 16, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 16, 0, 0, 0)
                         },
                         new
                         {
                             Id = 22,
-                            Hora_fim = new TimeSpan(0, 22, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 22, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 16, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 16, 30, 0, 0)
                         },
                         new
                         {
                             Id = 23,
-                            Hora_fim = new TimeSpan(0, 23, 30, 0, 0),
-                            Hora_inicio = new TimeSpan(0, 23, 0, 0, 0)
+                            Hora_fim = new TimeSpan(0, 17, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 17, 0, 0, 0)
                         },
                         new
                         {
                             Id = 24,
-                            Hora_fim = new TimeSpan(0, 0, 0, 0, 0),
+                            Hora_fim = new TimeSpan(0, 17, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 17, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 25,
+                            Hora_fim = new TimeSpan(0, 18, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 18, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 26,
+                            Hora_fim = new TimeSpan(0, 18, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 18, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 27,
+                            Hora_fim = new TimeSpan(0, 19, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 19, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 28,
+                            Hora_fim = new TimeSpan(0, 19, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 19, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 29,
+                            Hora_fim = new TimeSpan(0, 20, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 20, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 30,
+                            Hora_fim = new TimeSpan(0, 20, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 20, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 31,
+                            Hora_fim = new TimeSpan(0, 21, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 21, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 32,
+                            Hora_fim = new TimeSpan(0, 21, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 21, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 33,
+                            Hora_fim = new TimeSpan(0, 22, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 22, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 34,
+                            Hora_fim = new TimeSpan(0, 22, 30, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 22, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 35,
+                            Hora_fim = new TimeSpan(0, 23, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 23, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 36,
+                            Hora_fim = new TimeSpan(0, 23, 30, 0, 0),
                             Hora_inicio = new TimeSpan(0, 23, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 37,
+                            Hora_fim = new TimeSpan(0, 0, 0, 0, 0),
+                            Hora_inicio = new TimeSpan(0, 0, 0, 0, 0)
                         });
                 });
 

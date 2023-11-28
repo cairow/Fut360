@@ -30,16 +30,15 @@ namespace Fut360.Controllers
 
             // Filtra os agendamentos pelo ID do usuário
             var agendamentosDoAprovador = await _context.AgendamentoModel
-                .Where(a => a.localModel.Aprovador.Id == userId && !a.Aprovado)
+                .Where(a => a.localModel.Aprovador.Id == userId)
                 .Include(a => a.localModel)
+                .Include(u => u.userModel)
                 .ToListAsync();
 
             return agendamentosDoAprovador != null ?
              View(agendamentosDoAprovador) :
              Problem("Entity set 'Contexto.AgendamentoModel' is null.");
-            //return _context.AgendamentoModel != null ?
-            //                View(await _context.AgendamentoModel.Include(a => a.localModel).ToListAsync()) :
-            //                Problem("Entity set 'Contexto.AgendamentoModel'  is null.");
+        
         }
 
         // GET : Aprovado
@@ -115,13 +114,16 @@ namespace Fut360.Controllers
         }
 
         // GET: Agendamento/Create
-        public async Task<IActionResult> Create(HorarioModel horario)
+        public async Task<IActionResult> Create(int id)
         {
+            Console.WriteLine(id);
             List<HorarioModel> horarios = _context.Horarios.ToList();
             List<LocalModel> locais = _context.LocalModel.ToList();
 
             ViewData["horarios"] = horarios;
             ViewData["locais"] = locais;
+            ViewData["idLocal"] = id;
+
 
 
             return View();

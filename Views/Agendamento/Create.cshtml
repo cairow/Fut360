@@ -6,50 +6,68 @@
     List<HorarioModel> horarios = ViewData["horarios"] as List<HorarioModel>;
 
     List<LocalModel> locais = ViewData["locais"] as List<LocalModel>;
+
+    int id = (int)ViewData["idLocal"];
 }
+<style>
+    .img-quadra img {
+        border-radius: 10px;
+        margin: 10px;
+        height: 100%;
+        max-height: 250px;
+        width: 100%;
+        max-width: 250px;
+        object-fit: cover;
+    }
+</style>
 <div class="py-4">
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-12">
                 <div class="card mb-4">
-                    <div class="col-md-4">
-                        <div class="card-header pb-0">
-                            <div class="d-flex align-items-center">
-                                <p class="mb-0 text-uppercase">AGENDAMENTO</p>
-                            </div>
-                        </div> </br>
-                        <form asp-controller="Agendamento" asp-action="Create" method="post">
-                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                            <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
-                            <div>
-                                <h6> ** Horários Disponíveis ** </h6>
-                                <p>NOME DA QUADRA</p>
-                            </div>
-                            <label for="Data" class="form-control-label">Data</label>
-                            <input type="date" class="form-control-label" name="data" />
+                    <center>
+                        <div class="col-md-4">
+                                <div class="card-header pb-0">
+                             
+                                </div> </br>
+                                <form asp-controller="Agendamento" asp-action="Create" method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
+                                    <div class="img-quadra">
+                                        <h6> ESCOLHA UM HORÁRIO </h6>
+                                        <p class="">@locais.Find(l => l.Id == id).Nome</p>
+                                        <img src="~/fotos/@locais.Find(l => l.Id == id).ImagemLocal" alt="" />
+                                    </div>
+                                    <div>
+                                        <label for="Data" class="form-control-label">Data</label>
+                                        <input type="date" class="form-control-label" name="data" />
+                                    </div>
+                                    <div>
+                                        <label for="DataHoraInicial" class="form-control-label">Hora Inicial</label>
+                                        <select id="DataHoraInicial" name="DataHoraInicial" class="form-control">
+                                            @foreach (var horario in horarios)
 
-                            <label for="DataHoraInicial" class="form-control-label">Hora Inicial</label>
-                            <select id="DataHoraInicial" name="DataHoraInicial" class="form-control">
-                                @foreach (var horario in horarios)
+                                            {
+                                                <option value="@horario.Hora_inicio">@horario.Hora_inicio</option>
+                                            }
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="DataHoraFinal" class="form-control-label">Hora Final</label>
+                                        <select id="DataHoraFinal" name="DataHoraFinal" class="form-control">
+                                            @foreach (var horario in horarios)
 
-                                {
-                                    <option value="@horario.Hora_inicio">@horario.Hora_inicio</option>
-                                }
-                            </select>
-                            <label for="DataHoraFinal" class="form-control-label">Hora Final</label>
-                            <select id="DataHoraFinal" name="DataHoraFinal" class="form-control">
-                                @foreach (var horario in horarios)
-
-                                {
-                                    <option value="@horario.Hora_fim">@horario.Hora_fim</option>
-                                }
-                            </select>
-
-                            <div class="form-group">
-                                <input type="submit" value="Salvar" class="btn btn-primary" />
-                            </div>
-                        </form>
-                    </div>
+                                            {
+                                                <option value="@horario.Hora_fim">@horario.Hora_fim</option>
+                                            }
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Salvar" class="btn btn-primary" />
+                                    </div>
+                                </form>
+                          </div>
+                    </center>   
                 </div>
             </div>
         </div>
