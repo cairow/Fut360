@@ -125,7 +125,6 @@ namespace Fut360.Controllers
             ViewData["idLocal"] = id;
 
 
-
             return View();
         }
 
@@ -135,7 +134,7 @@ namespace Fut360.Controllers
         public async Task<IActionResult> Create(AgendamentoModel agendamentoModel)
         {
             var data = HttpContext.Request;
-
+            
             var date = data.Form["data"][0];
             var horaInicial = data.Form["DataHoraInicial"][0];
             var horaFinal = data.Form["DataHoraFinal"][0];
@@ -147,21 +146,25 @@ namespace Fut360.Controllers
 
             if (agendamentoModel.DataHoraInicial <= now || agendamentoModel.DataHoraFinal <= now)
             {
+                ModelState.AddModelError(string.Empty, "Horário inicial deve ser menor que o horário final.");
                 return BadRequest("Horario inicial/final não pode estar no passado.");
             }
 
             if (agendamentoModel.DataHoraInicial >= agendamentoModel.DataHoraFinal)
             {
+                ModelState.AddModelError(string.Empty, "Horario inicial deve ser menor que o horario final.");
                 return BadRequest("Horario inicial deve ser menor que o horario final.");
             }
 
             if (agendamentoModel.DataHoraInicial <= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(5) || agendamentoModel.DataHoraFinal <= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(6))
             {
+                ModelState.AddModelError(string.Empty, "Agendamentos são permitidos apenas depois das 6 da manhã.");
                 return BadRequest("Agendamentos são permitidos apenas depois das 6 da manhã.");
             }
 
             if (agendamentoModel.DataHoraInicial >= agendamentoModel.DataHoraInicial.AtMidnight().AddHours(24) || agendamentoModel.DataHoraFinal >= agendamentoModel.DataHoraFinal.AtMidnight().AddHours(23))
             {
+                ModelState.AddModelError(string.Empty, "Agendamentos são permitidos apenas antes da 00 da noite.");
                 return BadRequest("Agendamentos são permitidos apenas antes da 00 da noite.");
             }
 
@@ -172,6 +175,7 @@ namespace Fut360.Controllers
                 if (agendamentoModel.DataHoraInicial >= agendamento.DataHoraInicial && agendamentoModel.DataHoraInicial <= agendamento.DataHoraFinal ||
                      agendamentoModel.DataHoraFinal >= agendamento.DataHoraInicial && agendamentoModel.DataHoraFinal <= agendamento.DataHoraFinal)
                 {
+                    ModelState.AddModelError(string.Empty, $"Já existe um agendamento nesse horário: {agendamento.DataHoraInicial} - {agendamento.DataHoraFinal} que conflita com o agendamento pedido, favor escolher outro horário.");
                     return BadRequest($"Já existe um agendamento nesse horário: {agendamento.DataHoraInicial} - {agendamento.DataHoraFinal} que conflita com o agendamento pedido, favor escolher outro horário.");
                 }
             }

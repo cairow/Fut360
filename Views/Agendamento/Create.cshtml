@@ -14,10 +14,13 @@
         border-radius: 10px;
         margin: 10px;
         height: 100%;
-        max-height: 250px;
+        max-height: 350px;
         width: 100%;
-        max-width: 250px;
+        max-width: 350px;
         object-fit: cover;
+    }
+    .hora{
+        width: 90px;
     }
 </style>
 <div class="py-4">
@@ -28,7 +31,17 @@
                     <center>
                         <div class="col-md-4">
                                 <div class="card-header pb-0">
-                             
+                                @if (!ViewData.ModelState.IsValid)
+                                {
+                                    <div class="alert alert-danger">
+                                        <ul>
+                                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                            {
+                                                <li>@error.ErrorMessage</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                }
                                 </div> </br>
                                 <form asp-controller="Agendamento" asp-action="Create" method="post">
                                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -44,7 +57,7 @@
                                     </div>
                                     <div>
                                         <label for="DataHoraInicial" class="form-control-label">Hora Inicial</label>
-                                        <select id="DataHoraInicial" name="DataHoraInicial" class="form-control">
+                                    <select id="DataHoraInicial" name="DataHoraInicial" class="form-control hora">
                                             @foreach (var horario in horarios)
 
                                             {
@@ -54,7 +67,7 @@
                                     </div>
                                     <div>
                                         <label for="DataHoraFinal" class="form-control-label">Hora Final</label>
-                                        <select id="DataHoraFinal" name="DataHoraFinal" class="form-control">
+                                    <select id="DataHoraFinal" name="DataHoraFinal" class="form-control hora">
                                             @foreach (var horario in horarios)
 
                                             {
