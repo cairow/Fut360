@@ -1,7 +1,10 @@
 ﻿@model Fut360.Models.LocalModel
+@using Microsoft.AspNetCore.Identity;
 
 @{
     ViewData["Title"] = "Editar Local";
+    List<IdentityUser> usuarios = ViewData["usuarios"] as List<IdentityUser>;
+
 }
 
 <div class="text-center">
@@ -13,24 +16,69 @@
 <div class="row">
     <div class="col-md-4">
 
-        <form asp-controller="Local" asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
+        <form asp-controller="Local" asp-action="Create" method="post" enctype="multipart/form-data"
+              style="padding: 30px;">
+            <div class="card-header pb-0">
+                <div class="d-flex align-items-center">
+                    <p class="mb-0 text-uppercase">CADASTRO DE LOCAL</p>
+                    <button type="submit" class="btn btn-primary btn-sm ms-auto">Salvar</button>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            </br>
-            <div class="form-group">
-                <input type="submit" role="button" value="Salvar" class="btn btn-primary" />
-                <a role="button" class="btn btn-primary" asp-controller="Local" asp-action="Index">Voltar</a>
+            <div class="card-body px- pt-0 pb-2">
+                <p class="text-sm">Informações:</p>
+                <div class="row">
+                    <div class="col-md-6 mb-0">
+                        <div class="">
+                            <label for="Nome" class="form-control-label">Nome</label>
+                            <input class="form-control" asp-for="Nome" placeholder="Digite o nome"
+                                   type="text">
+                            @Html.ValidationMessageFor(x => x.Nome)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <label for="Endereco" class="form-control-label">Endereço</label>
+                            <input class="form-control" asp-for="Endereco"
+                                   placeholder="Digite o Endereço completo" type="text">
+                            @Html.ValidationMessageFor(x => x.Endereco)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <label for="Maplink" class="form-control-label">Google Maps Link</label>
+                            <input class="form-control" asp-for="Maplink"
+                                   placeholder="Cole o link direto para o Google maps" type="url">
+                            @Html.ValidationMessageFor(x => x.Maplink)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <label for="Contato" class="form-control-label">Contato</label>
+                            <input class="form-control" asp-for="Contato"
+                                   placeholder="Digite um telefone para contato" type="text">
+                            @Html.ValidationMessageFor(x => x.Contato)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <label for="ImagemLocal" class="form-control-label">Foto</label>
+                            <input class="form-control" asp-for="ImagemLocal" type="file"
+                                   placeholder="Insira uma imagem: ">
+                            @Html.ValidationMessageFor(x => x.ImagemLocal)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <label for="Aprovador" class="form-control-label">Administrador do Local</label>
+                            <select id="Aprovador" asp-for="Aprovador" class="form-control">
+                                @foreach (var usuario in usuarios)
+                                {
+                                    <option value="@usuario.Id">@usuario.NormalizedUserName</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
         </form>
 

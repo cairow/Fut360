@@ -180,6 +180,8 @@ namespace Fut360.Controllers
                 }
             }
 
+            var ErrorMessage = ViewData["BadRequest"];
+
             //pega ID do usuario logado
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             agendamentoModel.userModel = await _context.FindAsync<IdentityUser>(userId) ?? new();

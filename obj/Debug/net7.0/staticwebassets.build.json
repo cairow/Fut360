@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YUl7q3dLATytsHbnr9XUUXfJDvLU58spd+bqvqdOvcw=",
+  "Hash": "2qA7c4yth1qS41CA/R9dpyl+bqYKXISmNVwMcFPSAN0=",
   "Source": "Fut360",
   "BasePath": "_content/Fut360",
   "Mode": "Default",
@@ -4981,6 +4981,23 @@
       "OriginalItemSpec": "wwwroot\\fotos\\4a3f53b8-4c87-46ec-962e-77036ef1ecee_abc.jpg"
     },
     {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\fotos\\b8ca9de6-f9d3-49e1-9f25-235237b54fa0_fut_login.jpg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "fotos/b8ca9de6-f9d3-49e1-9f25-235237b54fa0_fut_login.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\b8ca9de6-f9d3-49e1-9f25-235237b54fa0_fut_login.jpg"
+    },
+    {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\fotos\\e1aaf99f-0f4d-4753-9895-69cb55ff8ec3_abc.jpg",
       "SourceId": "Fut360",
       "SourceType": "Discovered",
@@ -5100,12 +5117,12 @@
       "OriginalItemSpec": "wwwroot\\images\\fortaleza.png"
     },
     {
-      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\fut_ind.jpg",
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\fut_chut.jpg",
       "SourceId": "Fut360",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\",
       "BasePath": "_content/Fut360",
-      "RelativePath": "images/fut_ind.jpg",
+      "RelativePath": "images/fut_chut.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5114,7 +5131,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fut_ind.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\fut_chut.jpg"
     },
     {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\fut_login.jpg",
@@ -5151,6 +5168,23 @@
       "OriginalItemSpec": "wwwroot\\images\\fut360logo.png"
     },
     {
+      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\futsal_bola.jpeg",
+      "SourceId": "Fut360",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\",
+      "BasePath": "_content/Fut360",
+      "RelativePath": "images/futsal_bola.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\futsal_bola.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\gremio.png",
       "SourceId": "Fut360",
       "SourceType": "Discovered",
@@ -5166,23 +5200,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gremio.png"
-    },
-    {
-      "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\iQuadra.png",
-      "SourceId": "Fut360",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\",
-      "BasePath": "_content/Fut360",
-      "RelativePath": "images/iQuadra.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\iQuadra.png"
     },
     {
       "Identity": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\js\\calendar.js",

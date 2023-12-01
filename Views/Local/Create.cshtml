@@ -4,6 +4,7 @@
 @{
     ViewData["Title"] = "Cadastro de Local";
     List<IdentityUser> usuarios = ViewData["usuarios"] as List<IdentityUser>;
+    
 }
 
 <div class="text-center py-4">
@@ -12,7 +13,7 @@
             <div class="col-12">
                 <div class="card mb-4">                  
                     <form asp-controller="Local" asp-action="Create" method="post" enctype="multipart/form-data"
-                        style="padding: 30px;">
+                        style="padding: 30px;">                        
                         <div class="card-header pb-0">
                             <div class="d-flex align-items-center">
                                 <p class="mb-0 text-uppercase">CADASTRO DE LOCAL</p>

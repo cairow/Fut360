@@ -106,6 +106,10 @@ namespace Fut360.Controllers
         // GET: Local/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            List<IdentityUser> usuarios = _userManager.Users.ToList();
+
+            ViewData["usuarios"] = usuarios;
+
             if (id == null || _context.LocalModel == null)
             {
                 return NotFound();
@@ -116,12 +120,12 @@ namespace Fut360.Controllers
             {
                 return NotFound();
             }
-            return View(localModel);
+
+            return View();
         }
 
-        [Authorize(Roles = "Admin")]
         // POST: Local/Edit/5
-        [Authorize(Roles = "Admin, Aprovador")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Endereco,Horario,Pagamento")] LocalModel localModel)

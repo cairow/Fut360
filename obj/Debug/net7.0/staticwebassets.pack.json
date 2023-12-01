@@ -1165,6 +1165,10 @@
       "PackagePath": "staticwebassets\\fotos\\4a3f53b8-4c87-46ec-962e-77036ef1ecee_abc.jpg"
     },
     {
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\fotos\\b8ca9de6-f9d3-49e1-9f25-235237b54fa0_fut_login.jpg",
+      "PackagePath": "staticwebassets\\fotos\\b8ca9de6-f9d3-49e1-9f25-235237b54fa0_fut_login.jpg"
+    },
+    {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\fotos\\e1aaf99f-0f4d-4753-9895-69cb55ff8ec3_abc.jpg",
       "PackagePath": "staticwebassets\\fotos\\e1aaf99f-0f4d-4753-9895-69cb55ff8ec3_abc.jpg"
     },
@@ -1197,20 +1201,20 @@
       "PackagePath": "staticwebassets\\images\\fut360logo.png"
     },
     {
-      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\fut_ind.jpg",
-      "PackagePath": "staticwebassets\\images\\fut_ind.jpg"
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\fut_chut.jpg",
+      "PackagePath": "staticwebassets\\images\\fut_chut.jpg"
     },
     {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\fut_login.jpg",
       "PackagePath": "staticwebassets\\images\\fut_login.jpg"
     },
     {
-      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\gremio.png",
-      "PackagePath": "staticwebassets\\images\\gremio.png"
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\futsal_bola.jpeg",
+      "PackagePath": "staticwebassets\\images\\futsal_bola.jpeg"
     },
     {
-      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\iQuadra.png",
-      "PackagePath": "staticwebassets\\images\\iQuadra.png"
+      "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\images\\gremio.png",
+      "PackagePath": "staticwebassets\\images\\gremio.png"
     },
     {
       "Id": "C:\\Users\\cairogomes\\source\\repos\\Fut360nov\\wwwroot\\js\\calendar.js",

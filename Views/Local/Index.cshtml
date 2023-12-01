@@ -1,4 +1,8 @@
-﻿@model List<LocalModel>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@model List<LocalModel>
 
 @{
     ViewData["Title"] = "Locais Disponíveis";
@@ -83,6 +87,14 @@
                                                                         <a href="@local.Maplink" target="_blank"><p><i class="ni ni-square-pin"></i>  @local.Endereco</p></a>
                                                                         <p><i class="fa fa-phone"></i>  @local.Contato</p>
                                                                         <a role="button" class="badge badge-sm bg-gradient-success" asp-route-id="@local.Id" asp-controller="Agendamento" asp-action="Create">Ver horários</a>
+                                                                        @if (SignInManager.IsSignedIn(User))
+                                                                        {
+                                                                            @if (User.IsInRole("Admin"))
+                                                                            {
+                                                                                <a role="button" class="badge badge-sm bg-default" asp-route-id="@local.Id" asp-controller="Local" asp-action="Edit">Editar</a>
+                                                                                <a role="button" class="badge badge-sm bg-danger" asp-route-id="@local.Id" asp-controller="Local" asp-action="Delete">Excluir</a>
+                                                                            }
+                                                                        }
                                                                     </div>
                                                                 </div>
                                                             </td>

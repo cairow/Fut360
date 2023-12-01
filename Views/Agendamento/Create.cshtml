@@ -8,6 +8,8 @@
     List<LocalModel> locais = ViewData["locais"] as List<LocalModel>;
 
     int id = (int)ViewData["idLocal"];
+
+    
 }
 <style>
     .img-quadra img {
@@ -31,19 +33,13 @@
                     <center>
                         <div class="col-md-4">
                                 <div class="card-header pb-0">
-                                @if (!ViewData.ModelState.IsValid)
+                                @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
                                 {
-                                    <div class="alert alert-danger">
-                                        <ul>
-                                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-                                            {
-                                                <li>@error.ErrorMessage</li>
-                                            }
-                                        </ul>
-                                    </div>
+                                    <script>alert(BadRequest);</script>
                                 }
                                 </div> </br>
                                 <form asp-controller="Agendamento" asp-action="Create" method="post">
+                                
                                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                     <input type="hidden" id="localModel" name="localModel" asp-for="Id" />
                                     <div class="img-quadra">
