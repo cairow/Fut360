@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fut360")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f051b6884902f68e1c84da25244726084b5cf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fut360")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fut360")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Fut360.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin, User, Aprovador")]
+
     public class LocalController : Controller
     {
         private readonly Contexto _context;
@@ -26,7 +27,6 @@ namespace Fut360.Controllers
         }
 
         // GET: Local
-        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
 

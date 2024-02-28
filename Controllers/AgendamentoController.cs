@@ -5,9 +5,12 @@ using Fut360.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using Humanizer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Fut360.Controllers
 {
+    [Authorize(Roles = "Admin, User, Aprovador")]
+
     [Produces("application/json")]
     public class AgendamentoController : Controller
     {

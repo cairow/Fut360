@@ -1,11 +1,14 @@
 ﻿using System.Diagnostics;
 using Fut360.Data;
 using Fut360.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fut360.Controllers
 {
+    [Authorize(Roles = "Admin, User, Aprovador")]
+
     public class HomeController : Controller
     {
         private readonly Contexto _context;

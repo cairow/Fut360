@@ -11,6 +11,7 @@ namespace Fut360.Controllers
         private readonly UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> signInManager;
 
+
         private readonly Contexto _context;
 
         public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, Contexto context)
@@ -37,6 +38,7 @@ namespace Fut360.Controllers
                     Email = model.Email,
                 };
 
+
                 // Armazena os dados do usuário na tabela AspNetUsers
                 var result = await userManager.CreateAsync(user, model.Password);
 
@@ -44,8 +46,10 @@ namespace Fut360.Controllers
                 // usando o serviço SignInManager e redireciona para o Método Action Index
                 if (result.Succeeded)
                 {
+                    await userManager.AddToRoleAsync(user, "User");
+
                     await signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Local");
+                    return RedirectToAction("Login", "Account");
                 }
 
                 // Se houver erros então inclui no ModelState

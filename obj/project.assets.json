@@ -12080,19 +12080,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cairogomes\\.nuget\\packages\\": {}
+    "C:\\Users\\julli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cairogomes\\Source\\Repos\\Fut360nov\\Fut360.csproj",
+      "projectUniqueName": "C:\\Users\\julli\\source\\repos\\Fut360\\Fut360.csproj",
       "projectName": "Fut360",
-      "projectPath": "C:\\Users\\cairogomes\\Source\\Repos\\Fut360nov\\Fut360.csproj",
-      "packagesPath": "C:\\Users\\cairogomes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cairogomes\\Source\\Repos\\Fut360nov\\obj\\",
+      "projectPath": "C:\\Users\\julli\\source\\repos\\Fut360\\Fut360.csproj",
+      "packagesPath": "C:\\Users\\julli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julli\\source\\repos\\Fut360\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cairogomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12112,6 +12112,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -12178,7 +12183,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
